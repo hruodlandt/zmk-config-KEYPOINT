@@ -105,11 +105,15 @@
         raise_layer {
             display-name = "RAISE";
             bindings = <
-&kp ESC    &kp F1    &kp UP    &kp F3     &kp F4  &kp F5  &kp F6  &kp F7  &kp F8   &kp F9   &kp F10  &none
-&kp CAPS   &kp LEFT  &kp DOWN  &kp RIGHT  &none   &none   &none   &none   &kp F11  &kp F12  &none    &none  &none  &none
-&kp LSHFT  &none     &none     &none      &none   &none   &none   &none   &none    &none    &none    &none  &none  &none  &none  &none
-&kp LCTRL  &kp LGUI  &none     &none      &mo 2   &none   &none   &none   &none    &mo 2    &none    &none  &none  &none
+&kp N7        &kp N8        &kp N9         &kp MINUS      &kp EQUAL          &kp DEL  &kp F6   &kp F7  &kp F8   &kp F9   &kp F10  &none
+&kp NUMBER_4  &kp N5        &kp NUMBER_6   &kp PLUS       &none              &none    &none    &none   &kp F11  &kp F12  &none    &none  &none  &none
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &mo 4          &none              &none    &none    &none   &none    &none    &none    &none  &none  &none  &none  &none
+&kp N0        &kp PERIOD    &kp RIGHT_GUI  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &mo 4    &kp RET  &none   &none    &mo 2    &none    &none  &none  &none
             >;
+
+            sensor-bindings =
+                <&inc_dec_kp DOWN UP_ARROW>,
+                <&inc_dec_kp LEFT RIGHT>;
         };
 
         MOUSE_layer {
