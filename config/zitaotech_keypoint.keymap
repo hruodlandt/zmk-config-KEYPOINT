@@ -93,10 +93,10 @@
         lower_layer {
             display-name = "LOWER";
             bindings = <
-&kp ESCAPE    &kp F2         &kp LS(F10)    &kp MINUS      &kp EQUAL  &kp DEL          &kp LA(LG(ESCAPE))  &kp LA(F4)  &kp LC(W)      &kp LG(E)    &kp LC(R)  &kp LC(T)
-&kp NUMBER_4  &kp PAGE_UP    &kp HOME       &kp UP_ARROW   &kp END    &kp RET          &mkp RCLK           &mkp RCLK   &kp CAPS       &kp LC(A)    &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LC(G)
-&kp NUMBER_1  &kp PAGE_DOWN  &kp LEFT       &kp DOWN       &kp RIGHT  &kp RIGHT_SHIFT  &kp GLOBE           &trans      &kp PAGE_DOWN  &kp PAGE_UP  &trans     &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(LA(V))
-&kp N0        &kp PERIOD     &kp RIGHT_GUI  &kp RIGHT_ALT  &trans     &mo 4            &kp RET             &mo 4       &mo 4          &trans       &trans     &trans     &trans     &trans
+&kp ESCAPE    &kp F2         &kp LS(F10)    &kp MINUS      &kp EQUAL  &kp DEL          &kp LA(LG(ESCAPE))  &kp LA(F4)    &kp LC(W)      &kp LG(E)    &kp LC(R)  &kp LC(T)
+&kp NUMBER_4  &kp PAGE_UP    &kp HOME       &kp UP_ARROW   &kp END    &kp RET          &mkp RCLK           &mkp RCLK     &kp CAPS       &kp LC(A)    &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LC(G)
+&kp NUMBER_1  &kp PAGE_DOWN  &kp LEFT       &kp DOWN       &kp RIGHT  &kp RIGHT_SHIFT  &kp DOWN            &kp UP_ARROW  &kp PAGE_DOWN  &kp PAGE_UP  &trans     &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(LA(V))
+&kp N0        &kp PERIOD     &kp RIGHT_GUI  &kp RIGHT_ALT  &trans     &mo 4            &kp RET             &mo 4         &mo 4          &trans       &trans     &trans     &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LEFT RIGHT>, <&inc_dec_kp UP DOWN>;
