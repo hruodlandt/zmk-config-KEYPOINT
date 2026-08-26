@@ -99,7 +99,7 @@
 &kp N0        &kp PERIOD     &kp RIGHT_GUI  &kp RIGHT_ALT  &trans     &mo 4            &kp RET             &mo 4       &mo 4          &trans       &trans     &trans     &trans     &trans
             >;
 
-            sensor-bindings = <&BLE_encoder &inc_dec_kp UP DOWN>;
+            sensor-bindings = <&inc_dec_kp LEFT RIGHT>, <&inc_dec_kp UP DOWN>;
         };
 
         raise_layer {
