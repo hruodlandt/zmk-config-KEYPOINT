@@ -93,10 +93,10 @@
         lower_layer {
             display-name = "LOWER";
             bindings = <
-&kp ESCAPE    &kp F2         &kp LS(F10)  &kp MINUS     &kp EQUAL  &kp DEL          &kp LA(LG(ESCAPE))  &kp LA(F4)  &kp LC(W)   &kp LG(E)   &kp LC(R)     &kp LC(T)
-&kp NUMBER_4  &kp PAGE_UP    &kp HOME     &kp UP_ARROW  &kp END    &kp RET          &mkp RCLK           &mkp RCLK   &kp CAPS    &kp LC(A)   &kp LC(S)     &kp LC(D)  &kp LC(F)  &kp LC(G)
-&kp NUMBER_1  &kp PAGE_DOWN  &kp LEFT     &kp DOWN      &kp RIGHT  &kp RIGHT_SHIFT  &trans              &trans      &bl BL_DEC  &bl BL_INC  &trans        &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(LA(V))
-&kp N0        &kp PERIOD     &BOT         &bootloader   &trans     &mo 4            &kp RET             &mo 4       &mo 4       &trans      &out OUT_TOG  &BOT       &trans     &trans
+&kp ESCAPE    &kp F2         &kp LS(F10)  &kp MINUS     &kp EQUAL  &kp DEL          &kp LA(LG(ESCAPE))  &kp LA(F4)  &kp LC(W)   &kp LG(E)   &kp LC(R)  &kp LC(T)
+&kp NUMBER_4  &kp PAGE_UP    &kp HOME     &kp UP_ARROW  &kp END    &kp RET          &mkp RCLK           &mkp RCLK   &kp CAPS    &kp LC(A)   &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LC(G)
+&kp NUMBER_1  &kp PAGE_DOWN  &kp LEFT     &kp DOWN      &kp RIGHT  &kp RIGHT_SHIFT  &trans              &trans      &bl BL_DEC  &bl BL_INC  &trans     &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(LA(V))
+&kp N0        &kp PERIOD     &BOT         &bootloader   &trans     &mo 4            &kp RET             &mo 4       &mo 4       &trans      &trans     &BOT       &trans     &trans
             >;
 
             sensor-bindings = <&BLE_encoder &inc_dec_kp UP DOWN>;
