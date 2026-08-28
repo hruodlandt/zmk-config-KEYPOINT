@@ -1,11 +1,11 @@
 layout: {zmk_keyboard: zitaotech_keypoint}
 layers:
   QWERTY: [ESCAPE, Q, W, E, R, T, Y, U, I, O, P, BACKSPACE, TAB, A, S, D, F, G, '&mkp LCLK', '&mkp LCLK', H, J, K, L, UP ARROW, RIGHT SHIFT, LEFT SHIFT, Z, X, C,
-    V, B, PG DN, PG UP, HOME, END, N, M, /, LEFT, DOWN, RIGHT, LEFT CONTROL, LEFT ALT, RIGHT GUI, RIGHT ALT, LOWER, SPACE, RAISE, RAISE, ',', ., RIGHT ALT, RIGHT
-      GUI, RIGHT CONTROL, RET]
+    V, B, RET, '&mkp MB2', ESCAPE, '&mkp MB2', N, M, /, LEFT, DOWN, RIGHT, LEFT CONTROL, LEFT ALT, RIGHT GUI, RIGHT ALT, LOWER, SPACE, RAISE, RAISE, ',', ., RIGHT
+      ALT, RIGHT GUI, RIGHT CONTROL, RET]
   LOWER:
   - Alt+Gui+ESCAPE
-  - Sft+F10
+  - F12
   - F2
   - Gui+E
   - Ctl+R
@@ -16,14 +16,14 @@ layers:
   - (
   - )
   - DELETE
-  - GLOBE
+  - AC NEXT KEYBOARD LAYOUT SELECT
   - Ctl+A
   - Ctl+S
   - Ctl+D
   - Ctl+F
   - F5
-  - '&mkp RCLK'
-  - '&mkp RCLK'
+  - '&mkp MB1'
+  - '&mkp MB1'
   - HOME
   - END
   - PAGE UP
@@ -79,7 +79,7 @@ layers:
   - DELETE
   - UP ARROW
   - PAGE DOWN
-  - '&mkp MB2'
+  - '&mkp MB1'
   - ''
   - '4'
   - '5'
@@ -93,10 +93,10 @@ layers:
   - LEFT
   - DOWN
   - RIGHT ARROW
-  - PAGE DOWN
-  - PAGE UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - HOME
+  - END
   - '1'
   - '2'
   - '3'
@@ -117,63 +117,9 @@ layers:
   - RIGHT GUI
   - RIGHT CONTROL
   - RET
-  MOUSE:
-  - TAB
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - {t: Y, h: '&mkp MB1'}
-  - {t: U, h: '&mkp MB2'}
-  - I
-  - O
-  - P
-  - BSPC
-  - CAPS
-  - A
-  - S
-  - D
-  - F
-  - G
-  - '&mkp LCLK'
-  - '&mkp LCLK'
-  - H
-  - J
-  - K
-  - L
-  - UP ARROW
-  - RIGHT SHIFT
-  - LSHFT
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - '&msc SCRL_DOWN'
-  - '&msc SCRL_UP'
-  - ''
-  - ''
-  - N
-  - M
-  - /
-  - LEFT
-  - DOWN
-  - RIGHT
-  - LCTRL
-  - LEFT ALT
-  - LEFT GUI
-  - ''
-  - ''
-  - SPACE
-  - '&mkp MB1'
-  - '&mkp MB1'
-  - ','
-  - .
-  - RIGHT ALT
-  - RIGHT GUI
-  - RIGHT CONTROL
-  - RET
+  MOUSE: [TAB, Q, W, E, R, T, '&mkp MB1', '&mkp MB2', I, O, P, BSPC, CAPS, A, S, D, F, G, '&mkp LCLK', '&mkp LCLK', '', '&mkp MB3', '', L, UP ARROW, RIGHT SHIFT,
+    LSHFT, Z, X, C, V, B, RET, '&mkp MB2', ESCAPE, '&mkp MB2', N, M, /, LEFT, DOWN, RIGHT, LCTRL, LEFT ALT, LEFT GUI, '', '', SPACE, '', '', ',', ., RIGHT ALT, RIGHT
+      GUI, RIGHT CONTROL, RET]
   RESERVE:
   - ESCAPE
   - F1
@@ -181,7 +127,7 @@ layers:
   - F3
   - F4
   - F5
-  - ''
+  - BT CLR
   - ''
   - INS
   - '-'
@@ -195,7 +141,7 @@ layers:
   - F10
   - ''
   - ''
-  - ''
+  - OUT TOG
   - ''
   - ''
   - +
@@ -204,8 +150,8 @@ layers:
   - LEFT SHIFT
   - F11
   - F12
-  - BT CLR
-  - OUT TOG
+  - ''
+  - ''
   - '&bootloader'
   - ''
   - ''
@@ -220,7 +166,7 @@ layers:
   - LEFT CONTROL
   - LEFT ALT
   - LEFT GUI
-  - ''
+  - MUTE
   - {type: held}
   - ''
   - ''
