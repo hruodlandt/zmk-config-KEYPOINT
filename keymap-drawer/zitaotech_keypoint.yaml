@@ -64,59 +64,59 @@ layers:
   - '7'
   - '8'
   - '9'
+  - HOME
+  - END
+  - PAGE UP
+  - '7'
+  - '8'
+  - '9'
   - '-'
   - '='
   - DEL
-  - F2
-  - F12
-  - ''
-  - ''
-  - ''
+  - '4'
+  - '5'
+  - '6'
+  - DELETE
+  - UP ARROW
+  - PAGE DOWN
+  - '&mkp MB2'
   - ''
   - '4'
   - '5'
   - '6'
   - +
-  - {t: (, h: )}
-  - RET
-  - '&mkp MB2'
-  - ''
-  - GLOBE
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - UP ARROW
+  - RIGHT SHIFT
   - '1'
   - '2'
   - '3'
-  - RESERVE
-  - {t: HOME, h: END}
-  - RIGHT SHIFT
+  - LEFT
+  - DOWN
+  - RIGHT ARROW
   - PAGE DOWN
   - PAGE UP
   - Ctl+PAGE UP
   - Ctl+PAGE DOWN
-  - LEFT SHIFT
-  - Ctl+PAGE UP
-  - Ctl+PAGE DOWN
-  - ''
-  - ''
-  - ''
+  - '1'
+  - '2'
+  - '3'
+  - LEFT
+  - DOWN
+  - RIGHT
   - '0'
   - .
-  - RIGHT GUI
-  - RIGHT ALT
-  - RIGHT CONTROL
-  - RESERVE
-  - {t: RET, type: held}
-  - RESERVE
-  - RESERVE
-  - LEFT CONTROL
   - RET
-  - LEFT ALT
-  - LEFT GUI
+  - RIGHT ALT
+  - RESERVE
   - SPACE
+  - {t: RESERVE, type: held}
+  - RESERVE
+  - '0'
+  - .
+  - RET
+  - RIGHT GUI
+  - RIGHT CONTROL
+  - RET
   MOUSE:
   - TAB
   - Q
