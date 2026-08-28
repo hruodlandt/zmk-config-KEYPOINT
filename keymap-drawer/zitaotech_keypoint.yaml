@@ -1,176 +1,122 @@
 layout: {zmk_keyboard: zitaotech_keypoint}
 layers:
-  QWERTY:
-  - {t: TAB, h: ESC}
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - BSPC
-  - CAPS
-  - A
-  - S
-  - D
-  - F
-  - G
-  - '&mkp LCLK'
-  - '&mkp LCLK'
-  - H
-  - J
-  - K
-  - L
-  - ;
-  - ENTER
-  - LSHFT
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - PG DN
-  - PG UP
-  - '&msc SCRL_DOWN'
-  - '&msc SCRL_UP'
-  - N
-  - M
-  - ','
-  - .
-  - /
-  - RSHFT
-  - LCTRL
-  - LGUI
-  - LALT
-  - MUTE
-  - RAISE
-  - SPACE
-  - LOWER
-  - LOWER
-  - SPACE
-  - RAISE
-  - MUTE
+  QWERTY: [ESCAPE, Q, W, E, R, T, Y, U, I, O, P, BACKSPACE, TAB, A, S, D, F, G, '&mkp LCLK', '&mkp LCLK', H, J, K, L, UP ARROW, RIGHT SHIFT, LEFT SHIFT, Z, X, C,
+    V, B, PG DN, PG UP, DOWN, UP ARROW, N, M, /, LEFT, DOWN, RIGHT, LEFT CONTROL, LEFT ALT, RIGHT GUI, RIGHT ALT, LOWER, SPACE, RAISE, RAISE, ',', ., RIGHT ALT, RIGHT
+      GUI, RIGHT CONTROL, RET]
+  LOWER:
+  - ESCAPE
+  - F2
+  - Sft+F10
   - '-'
   - '='
-  - '`'
-  LOWER:
-  - ESC
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
   - DEL
-  - CAPS
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+Gui+ESCAPE
+  - Alt+F4
+  - Ctl+W
+  - Gui+E
+  - Ctl+R
+  - Ctl+T
+  - '4'
+  - PAGE UP
+  - HOME
+  - HOME
+  - UP ARROW
+  - END
   - '&mkp RCLK'
   - '&mkp RCLK'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''''
-  - ENTER
-  - LSHFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&bl BL_DEC'
-  - '&bl BL_INC'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - NUBS
-  - RSHFT
-  - LCTRL
-  - LGUI
-  - '&bootloader'
-  - BT CLR
-  - {t: ▽, type: trans}
-  - SPACE
-  - {t: LOWER, type: held}
-  - LOWER
-  - SPACE
-  - {t: MOUSE, h: toggle}
-  - OUT TOG
-  - '&bootloader'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  RAISE:
-  - ESC
-  - F1
-  - UP
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - ''
   - CAPS
+  - Ctl+A
+  - Ctl+S
+  - Ctl+D
+  - Ctl+F
+  - Ctl+G
+  - '1'
+  - PAGE DOWN
+  - LEFT
   - LEFT
   - DOWN
   - RIGHT
-  - ''
-  - ''
-  - ''
-  - ''
-  - F11
+  - DOWN
+  - UP ARROW
+  - PAGE DOWN
+  - PAGE UP
+  - {t: ▽, type: trans}
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - Ctl+Alt+V
+  - Ctl+PAGE UP
+  - Ctl+PAGE DOWN
+  - RIGHT GUI
+  - RIGHT ALT
+  - {type: held}
+  - RESERVE
+  - RET
+  - RESERVE
+  - RESERVE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  RAISE:
+  - '7'
+  - '8'
+  - '9'
+  - '-'
+  - '='
+  - DEL
+  - F2
   - F12
   - ''
   - ''
   - ''
   - ''
-  - LSHFT
+  - '4'
+  - '5'
+  - '6'
+  - +
+  - {t: (, h: )}
+  - RET
+  - '&mkp MB2'
+  - ''
+  - GLOBE
   - ''
   - ''
   - ''
   - ''
   - ''
+  - '1'
+  - '2'
+  - '3'
+  - RESERVE
+  - {t: HOME, h: END}
+  - RIGHT SHIFT
+  - PAGE DOWN
+  - PAGE UP
+  - Ctl+PAGE UP
+  - Ctl+PAGE DOWN
+  - LEFT SHIFT
+  - Ctl+PAGE UP
+  - Ctl+PAGE DOWN
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - LCTRL
-  - LGUI
-  - ''
-  - ''
-  - {t: RAISE, type: held}
-  - ''
-  - ''
-  - ''
-  - ''
-  - RAISE
-  - ''
-  - ''
-  - ''
-  - ''
+  - '0'
+  - .
+  - RIGHT GUI
+  - RIGHT ALT
+  - RIGHT CONTROL
+  - RESERVE
+  - {t: RET, type: held}
+  - RESERVE
+  - RESERVE
+  - LEFT CONTROL
+  - RET
+  - LEFT ALT
+  - LEFT GUI
+  - SPACE
   MOUSE:
   - TAB
   - Q
@@ -218,15 +164,70 @@ layers:
   - LGUI
   - LALT
   - ''
-  - RAISE
+  - RIGHT CONTROL
   - SPACE
   - '&mkp MB1'
   - '&mkp MB1'
   - '&tdRMCLK'
-  - RAISE
+  - ''
   - MUTE
   - '-'
   - '='
   - '`'
-  RESERVE: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
-    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+  RESERVE:
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
+  - '`'
+  - ''
+  - ''
+  - ''
+  - '&bootloader'
+  - OUT TOG
+  - F4
+  - F5
+  - F6
+  - {t: '[', h: ']'}
+  - '|'
+  - RET
+  - ''
+  - ''
+  - KP NUMLOCK
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT CLR
+  - F1
+  - F2
+  - F3
+  - ''
+  - ''
+  - RIGHT SHIFT
+  - ''
+  - ''
+  - '&bl BL_DEC'
+  - '&bl BL_INC'
+  - LEFT SHIFT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&bootloader'
+  - ''
+  - RIGHT GUI
+  - RIGHT ALT
+  - {t: RIGHT CONTROL, type: held}
+  - {type: held}
+  - RET
+  - ''
+  - ''
+  - LEFT CONTROL
+  - RET
+  - LEFT ALT
+  - LEFT GUI
+  - SPACE
