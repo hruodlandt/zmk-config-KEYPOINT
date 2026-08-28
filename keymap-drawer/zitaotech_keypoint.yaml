@@ -88,8 +88,8 @@ layers:
   - UP ARROW
   - RIGHT SHIFT
   - LEFT SHIFT
-  - Z
-  - X
+  - Ctl+PAGE UP
+  - Ctl+PAGE DOWN
   - LEFT
   - DOWN
   - RIGHT ARROW
