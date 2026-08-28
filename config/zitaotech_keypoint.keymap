@@ -79,10 +79,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp ESCAPE        &kp Q         &kp W          &kp E          &kp R  &kp T      &kp Y      &kp U      &kp I      &kp O         &kp P          &kp BACKSPACE
-&kp TAB           &kp A         &kp S          &kp D          &kp F  &kp G      &mkp LCLK  &mkp LCLK  &kp H      &kp J         &kp K          &kp L          &kp UP_ARROW       &kp RIGHT_SHIFT
-&kp LEFT_SHIFT    &kp Z         &kp X          &kp C          &kp V  &kp B      &kp PG_DN  &kp PG_UP  &kp DOWN   &kp UP_ARROW  &kp N          &kp M          &kp SLASH          &kp LEFT         &kp DOWN  &kp RIGHT
-&kp LEFT_CONTROL  &kp LEFT_ALT  &kp RIGHT_GUI  &kp RIGHT_ALT  &mo 1  &kp SPACE  &mo 2      &mo 2      &kp COMMA  &kp PERIOD    &kp RIGHT_ALT  &kp RIGHT_GUI  &kp RIGHT_CONTROL  &kp RET
+&kp ESCAPE        &kp Q         &kp W          &kp E          &kp R  &kp T      &kp Y      &kp U      &kp I      &kp O       &kp P          &kp BACKSPACE
+&kp TAB           &kp A         &kp S          &kp D          &kp F  &kp G      &mkp LCLK  &mkp LCLK  &kp H      &kp J       &kp K          &kp L          &kp UP_ARROW       &kp RIGHT_SHIFT
+&kp LEFT_SHIFT    &kp Z         &kp X          &kp C          &kp V  &kp B      &kp PG_DN  &kp PG_UP  &kp HOME   &kp END     &kp N          &kp M          &kp SLASH          &kp LEFT         &kp DOWN  &kp RIGHT
+&kp LEFT_CONTROL  &kp LEFT_ALT  &kp RIGHT_GUI  &kp RIGHT_ALT  &mo 1  &kp SPACE  &mo 2      &mo 2      &kp COMMA  &kp PERIOD  &kp RIGHT_ALT  &kp RIGHT_GUI  &kp RIGHT_CONTROL  &kp RET
             >;
 
             sensor-bindings =
@@ -93,10 +93,10 @@
         lower_layer {
             display-name = "LOWER";
             bindings = <
-&kp LA(LG(ESCAPE))  &kp LS(F10)   &kp F2        &kp LG(E)      &kp LC(R)  &kp LC(T)      &mkp MB1   &mkp MB2      &kp INS        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DELETE
-&kp GLOBE           &kp LC(A)     &kp LC(S)     &kp LC(D)      &kp LC(F)  &kp F5         &mkp RCLK  &mkp RCLK     &kp HOME       &kp END               &kp PAGE_UP            &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &kp NON_US_BSLH
-&kp LEFT_SHIFT      &kp LC(Z)     &kp LC(X)     &kp LC(C)      &kp LC(V)  &kp LA(LC(V))  &kp DOWN   &kp UP_ARROW  &kp PAGE_DOWN  &kp PAGE_UP           &kp LC(PAGE_UP)        &kp LC(PAGE_DOWN)  &kp PAGE_DOWN      &kp SEMI         &kp APOSTROPHE  &kp GRAVE
-&kp LEFT_CONTROL    &kp LEFT_ALT  &kp LEFT_GUI  &kp RIGHT_ALT  &mo 4      &kp RET        &mo 4      &mo 4         &none          &trans                &trans                 &trans             &trans             &trans
+&kp LA(LG(ESCAPE))  &kp LS(F10)   &kp F2        &kp LG(E)      &kp LC(R)  &kp LC(T)      &mkp MB1   &mkp MB2   &kp INS   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DELETE
+&kp GLOBE           &kp LC(A)     &kp LC(S)     &kp LC(D)      &kp LC(F)  &kp F5         &mkp RCLK  &mkp RCLK  &kp HOME  &kp END               &kp PAGE_UP            &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &kp NON_US_BSLH
+&kp LEFT_SHIFT      &kp LC(Z)     &kp LC(X)     &kp LC(C)      &kp LC(V)  &kp LA(LC(V))  &trans     &trans     &trans    &trans                &kp LC(PAGE_UP)        &kp LC(PAGE_DOWN)  &kp PAGE_DOWN      &kp SEMI         &kp APOSTROPHE  &kp GRAVE
+&kp LEFT_CONTROL    &kp LEFT_ALT  &kp LEFT_GUI  &kp RIGHT_ALT  &mo 4      &kp RET        &mo 4      &mo 4      &none     &trans                &trans                 &trans             &trans             &trans
             >;
 
             sensor-bindings =
@@ -107,10 +107,10 @@
         raise_layer {
             display-name = "RAISE";
             bindings = <
-&kp ESCAPE        &kp LA(F4)       &kp LC(F4)         &kp HOME       &kp END       &kp PAGE_UP      &kp N7         &kp N8       &kp N9           &kp MINUS          &kp EQUAL      &kp DEL
-&kp TAB           &kp A            &kp S              &kp DELETE     &kp UP_ARROW  &kp PAGE_DOWN    &mkp MB2       &none        &kp NUMBER_4     &kp N5             &kp NUMBER_6   &kp PLUS       &kp UP_ARROW       &kp RIGHT_SHIFT
-&kp LEFT_SHIFT    &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LEFT       &kp DOWN      &kp RIGHT_ARROW  &kp PAGE_DOWN  &kp PAGE_UP  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp NUMBER_1   &kp NUMBER_2   &kp NUMBER_3       &kp LEFT         &kp DOWN  &kp RIGHT
-&kp LEFT_CONTROL  &kp LEFT_ALT     &kp LEFT_GUI       &kp RIGHT_ALT  &mo 4         &kp SPACE        &mo 4          &mo 4        &kp N0           &kp PERIOD         &kp RIGHT_ALT  &kp RIGHT_GUI  &kp RIGHT_CONTROL  &kp RET
+&kp ESCAPE        &kp LA(F4)       &kp LC(F4)         &kp HOME       &kp END       &kp PAGE_UP      &kp N7         &kp N8       &kp N9        &kp MINUS   &kp EQUAL      &kp DEL
+&kp TAB           &kp LC(PLUS)     &kp LC(MINUS)      &kp DELETE     &kp UP_ARROW  &kp PAGE_DOWN    &mkp MB2       &none        &kp NUMBER_4  &kp N5      &kp NUMBER_6   &kp PLUS       &kp UP_ARROW       &kp RIGHT_SHIFT
+&kp LEFT_SHIFT    &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LEFT       &kp DOWN      &kp RIGHT_ARROW  &kp PAGE_DOWN  &kp PAGE_UP  &trans        &trans      &kp NUMBER_1   &kp NUMBER_2   &kp NUMBER_3       &kp LEFT         &kp DOWN  &kp RIGHT
+&kp LEFT_CONTROL  &kp LEFT_ALT     &kp LEFT_GUI       &kp RIGHT_ALT  &mo 4         &kp SPACE        &mo 4          &mo 4        &kp N0        &kp PERIOD  &kp RIGHT_ALT  &kp RIGHT_GUI  &kp RIGHT_CONTROL  &kp RET
             >;
 
             sensor-bindings =
@@ -131,9 +131,9 @@
         RES_layer {
             display-name = "RESERVE";
             bindings = <
-&kp ESCAPE           &kp F1        &kp F2        &kp F3      &kp F4        &kp F5       &none  &none  &kp INS     &none       &kp PRINTSCREEN  &kp DELETE
-&mt KP_NUM CAPSLOCK  &kp F6        &kp F7        &kp F8      &kp F9        &kp F10      &none  &none  &none       &none       &none            &none          &none              &kp RIGHT_SHIFT
-&kp LEFT_SHIFT       &kp F11       &kp F12       &bt BT_CLR  &out OUT_TOG  &bootloader  &none  &none  &bl BL_DEC  &bl BL_INC  &bootloader      &none          &none              &none            &none  &none
+&kp ESCAPE           &kp F1        &kp F2        &kp F3      &kp F4        &kp F5       &none  &none  &kp INS     &kp MINUS   &kp PRINTSCREEN  &kp DELETE
+&mt KP_NUM CAPSLOCK  &kp F6        &kp F7        &kp F8      &kp F9        &kp F10      &none  &none  &none       &none       &none            &kp PLUS       &trans             &kp RIGHT_SHIFT
+&kp LEFT_SHIFT       &kp F11       &kp F12       &bt BT_CLR  &out OUT_TOG  &bootloader  &none  &none  &bl BL_DEC  &bl BL_INC  &bootloader      &none          &none              &trans           &trans  &trans
 &kp LEFT_CONTROL     &kp LEFT_ALT  &kp LEFT_GUI  &none       &none         &none        &none  &none  &none       &none       &kp RIGHT_ALT    &kp RIGHT_GUI  &kp RIGHT_CONTROL  &kp RET
             >;
 
