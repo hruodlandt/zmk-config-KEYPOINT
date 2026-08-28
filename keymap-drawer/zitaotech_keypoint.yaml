@@ -73,7 +73,7 @@ layers:
   - '-'
   - '='
   - DEL
-  - CAPS
+  - TAB
   - A
   - S
   - DELETE
@@ -187,7 +187,7 @@ layers:
   - ''
   - PRINTSCREEN
   - DELETE
-  - KP NUM
+  - {t: CAPSLOCK, h: KP NUM}
   - F6
   - F7
   - F8
