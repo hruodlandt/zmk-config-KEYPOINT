@@ -124,8 +124,8 @@ layers:
   - E
   - R
   - T
-  - Y
-  - {t: U, h: '&mkp MB3'}
+  - {t: Y, h: '&mkp MB1'}
+  - {t: U, h: '&mkp MB2'}
   - I
   - O
   - P
@@ -139,11 +139,11 @@ layers:
   - '&mkp LCLK'
   - '&mkp LCLK'
   - H
-  - {t: J, h: '&mkp MB1'}
+  - J
   - K
   - L
-  - ;
-  - ENTER
+  - UP ARROW
+  - RIGHT SHIFT
   - LSHFT
   - Z
   - X
@@ -155,11 +155,11 @@ layers:
   - ''
   - ''
   - N
-  - {t: M, h: '&mkp MB2'}
-  - ','
-  - .
+  - M
   - /
-  - RSHFT
+  - LEFT
+  - DOWN
+  - RIGHT
   - LCTRL
   - LGUI
   - LALT
@@ -168,12 +168,12 @@ layers:
   - SPACE
   - '&mkp MB1'
   - '&mkp MB1'
-  - '&tdRMCLK'
-  - ''
-  - MUTE
-  - '-'
-  - '='
-  - '`'
+  - ','
+  - .
+  - RIGHT ALT
+  - RIGHT GUI
+  - RIGHT CONTROL
+  - RET
   RESERVE:
   - F7
   - F8
