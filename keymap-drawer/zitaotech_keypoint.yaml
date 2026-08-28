@@ -10,12 +10,12 @@ layers:
   - Gui+E
   - Ctl+R
   - Ctl+T
-  - Alt+Gui+ESCAPE
-  - Alt+F4
+  - '&mkp MB1'
+  - '&mkp MB2'
   - Ctl+W
-  - Gui+E
-  - Ctl+R
-  - Ctl+T
+  - (
+  - )
+  - DELETE
   - GLOBE
   - Ctl+A
   - Ctl+S
@@ -27,9 +27,9 @@ layers:
   - CAPS
   - Ctl+A
   - Ctl+S
-  - Ctl+D
-  - Ctl+F
-  - Ctl+G
+  - '['
+  - ']'
+  - '|'
   - LEFT SHIFT
   - Ctl+Z
   - Ctl+X
@@ -43,9 +43,9 @@ layers:
   - {t: ▽, type: trans}
   - Ctl+Z
   - Ctl+X
-  - Ctl+C
-  - Ctl+V
-  - Ctl+Alt+V
+  - ;
+  - ''''
+  - '`'
   - LEFT CONTROL
   - LEFT ALT
   - LEFT GUI
