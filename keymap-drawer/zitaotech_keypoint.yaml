@@ -24,9 +24,9 @@ layers:
   - F5
   - '&mkp RCLK'
   - '&mkp RCLK'
-  - ''
-  - ''
-  - ''
+  - HOME
+  - END
+  - PAGE UP
   - '['
   - ']'
   - '|'
@@ -40,9 +40,9 @@ layers:
   - UP ARROW
   - PAGE DOWN
   - PAGE UP
-  - ''
-  - ''
-  - ''
+  - Ctl+PAGE UP
+  - Ctl+PAGE DOWN
+  - PAGE DOWN
   - ;
   - ''''
   - '`'
