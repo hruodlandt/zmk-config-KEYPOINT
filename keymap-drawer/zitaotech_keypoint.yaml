@@ -74,8 +74,8 @@ layers:
   - '='
   - DEL
   - CAPS
-  - '5'
-  - '6'
+  - A
+  - S
   - DELETE
   - UP ARROW
   - PAGE DOWN
@@ -88,8 +88,8 @@ layers:
   - UP ARROW
   - RIGHT SHIFT
   - LEFT SHIFT
-  - '2'
-  - '3'
+  - Z
+  - X
   - LEFT
   - DOWN
   - RIGHT ARROW
@@ -113,7 +113,7 @@ layers:
   - RESERVE
   - '0'
   - .
-  - RET
+  - RIGHT ALT
   - RIGHT GUI
   - RIGHT CONTROL
   - RET
@@ -161,8 +161,8 @@ layers:
   - DOWN
   - RIGHT
   - LCTRL
-  - LGUI
-  - LALT
+  - LEFT ALT
+  - LEFT GUI
   - ''
   - ''
   - SPACE
@@ -175,59 +175,59 @@ layers:
   - RIGHT CONTROL
   - RET
   RESERVE:
+  - ESCAPE
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - ''
+  - ''
+  - INS
+  - ''
+  - PRINTSCREEN
+  - DELETE
+  - KP NUM
+  - F6
   - F7
   - F8
   - F9
   - F10
-  - F11
-  - F12
-  - '`'
-  - ''
-  - ''
-  - ''
-  - '&bootloader'
-  - OUT TOG
-  - F4
-  - F5
-  - F6
-  - {t: '[', h: ']'}
-  - '|'
-  - RET
-  - ''
-  - ''
-  - KP NUMLOCK
   - ''
   - ''
   - ''
   - ''
-  - BT CLR
-  - F1
-  - F2
-  - F3
+  - ''
   - ''
   - ''
   - RIGHT SHIFT
+  - LEFT SHIFT
+  - F11
+  - F12
+  - BT CLR
+  - OUT TOG
+  - '&bootloader'
   - ''
   - ''
   - '&bl BL_DEC'
   - '&bl BL_INC'
-  - LEFT SHIFT
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - '&bootloader'
   - ''
-  - RIGHT GUI
-  - RIGHT ALT
-  - {t: RIGHT CONTROL, type: held}
   - ''
-  - RET
+  - ''
   - ''
   - ''
   - LEFT CONTROL
-  - RET
   - LEFT ALT
   - LEFT GUI
-  - SPACE
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - RIGHT ALT
+  - RIGHT GUI
+  - RIGHT CONTROL
+  - RET
