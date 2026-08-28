@@ -4,24 +4,24 @@ layers:
     V, B, PG DN, PG UP, DOWN, UP ARROW, N, M, /, LEFT, DOWN, RIGHT, LEFT CONTROL, LEFT ALT, RIGHT GUI, RIGHT ALT, LOWER, SPACE, RAISE, RAISE, ',', ., RIGHT ALT, RIGHT
       GUI, RIGHT CONTROL, RET]
   LOWER:
-  - ESCAPE
-  - F2
+  - Alt+Gui+ESCAPE
   - Sft+F10
-  - '-'
-  - '='
-  - DEL
+  - F2
+  - Gui+E
+  - Ctl+R
+  - Ctl+T
   - Alt+Gui+ESCAPE
   - Alt+F4
   - Ctl+W
   - Gui+E
   - Ctl+R
   - Ctl+T
-  - '4'
-  - PAGE UP
-  - HOME
-  - HOME
-  - UP ARROW
-  - END
+  - GLOBE
+  - Ctl+A
+  - Ctl+S
+  - Ctl+D
+  - Ctl+F
+  - F5
   - '&mkp RCLK'
   - '&mkp RCLK'
   - CAPS
@@ -30,12 +30,12 @@ layers:
   - Ctl+D
   - Ctl+F
   - Ctl+G
-  - '1'
-  - PAGE DOWN
-  - LEFT
-  - LEFT
-  - DOWN
-  - RIGHT
+  - LEFT SHIFT
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - Alt+Ctl+V
   - DOWN
   - UP ARROW
   - PAGE DOWN
@@ -46,15 +46,15 @@ layers:
   - Ctl+C
   - Ctl+V
   - Ctl+Alt+V
-  - Ctl+PAGE UP
-  - Ctl+PAGE DOWN
-  - RIGHT GUI
+  - LEFT CONTROL
+  - LEFT ALT
+  - LEFT GUI
   - RIGHT ALT
-  - {type: held}
-  - RESERVE
+  - {t: RESERVE, type: held}
   - RET
   - RESERVE
   - RESERVE
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -222,7 +222,7 @@ layers:
   - RIGHT GUI
   - RIGHT ALT
   - {t: RIGHT CONTROL, type: held}
-  - {type: held}
+  - ''
   - RET
   - ''
   - ''
