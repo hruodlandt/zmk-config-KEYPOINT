@@ -94,12 +94,14 @@
             display-name = "LOWER";
             bindings = <
 &kp LA(LG(ESCAPE))  &kp LS(F10)   &kp F2        &kp LG(E)      &kp LC(R)  &kp LC(T)      &mkp MB1   &mkp MB2      &kp INS        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DELETE
-&kp GLOBE           &kp LC(A)     &kp LC(S)     &kp LC(D)      &kp LC(F)  &kp F5         &mkp RCLK  &mkp RCLK     &none          &none                 &none                  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BSLH
-&kp LEFT_SHIFT      &kp LC(Z)     &kp LC(X)     &kp LC(C)      &kp LC(V)  &kp LA(LC(V))  &kp DOWN   &kp UP_ARROW  &kp PAGE_DOWN  &kp PAGE_UP           &none                  &none             &none              &kp SEMI         &kp APOSTROPHE  &kp GRAVE
-&kp LEFT_CONTROL    &kp LEFT_ALT  &kp LEFT_GUI  &kp RIGHT_ALT  &mo 4      &kp RET        &mo 4      &mo 4         &none          &trans                &trans                 &trans            &trans             &trans
+&kp GLOBE           &kp LC(A)     &kp LC(S)     &kp LC(D)      &kp LC(F)  &kp F5         &mkp RCLK  &mkp RCLK     &kp HOME       &kp END               &kp PAGE_UP            &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &kp NON_US_BSLH
+&kp LEFT_SHIFT      &kp LC(Z)     &kp LC(X)     &kp LC(C)      &kp LC(V)  &kp LA(LC(V))  &kp DOWN   &kp UP_ARROW  &kp PAGE_DOWN  &kp PAGE_UP           &kp LC(PAGE_UP)        &kp LC(PAGE_DOWN)  &kp PAGE_DOWN      &kp SEMI         &kp APOSTROPHE  &kp GRAVE
+&kp LEFT_CONTROL    &kp LEFT_ALT  &kp LEFT_GUI  &kp RIGHT_ALT  &mo 4      &kp RET        &mo 4      &mo 4         &none          &trans                &trans                 &trans             &trans             &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LEFT RIGHT>, <&inc_dec_kp UP DOWN>;
+            sensor-bindings =
+                <&inc_dec_kp LEFT RIGHT>,
+                <&inc_dec_kp LC(PAGE_DOWN) LC(PAGE_UP)>;
         };
 
         raise_layer {
