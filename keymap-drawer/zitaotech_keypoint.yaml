@@ -12,7 +12,7 @@ layers:
   - Ctl+T
   - '&mkp MB1'
   - '&mkp MB2'
-  - Ctl+W
+  - INS
   - (
   - )
   - DELETE
@@ -24,9 +24,9 @@ layers:
   - F5
   - '&mkp RCLK'
   - '&mkp RCLK'
-  - CAPS
-  - Ctl+A
-  - Ctl+S
+  - ''
+  - ''
+  - ''
   - '['
   - ']'
   - '|'
@@ -40,9 +40,9 @@ layers:
   - UP ARROW
   - PAGE DOWN
   - PAGE UP
-  - {t: ▽, type: trans}
-  - Ctl+Z
-  - Ctl+X
+  - ''
+  - ''
+  - ''
   - ;
   - ''''
   - '`'
@@ -73,7 +73,7 @@ layers:
   - '-'
   - '='
   - DEL
-  - TAB
+  - CAPS
   - '5'
   - '6'
   - DELETE
