@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: zitaotech_keypoint}
 layers:
   QWERTY: [ESCAPE, Q, W, E, R, T, Y, U, I, O, P, BACKSPACE, TAB, A, S, D, F, G, '&mkp LCLK', '&mkp LCLK', H, J, K, L, UP ARROW, RIGHT SHIFT, LEFT SHIFT, Z, X, C,
-    V, B, PG DN, PG UP, DOWN, UP ARROW, N, M, /, LEFT, DOWN, RIGHT, LEFT CONTROL, LEFT ALT, RIGHT GUI, RIGHT ALT, LOWER, SPACE, RAISE, RAISE, ',', ., RIGHT ALT, RIGHT
+    V, B, PG DN, PG UP, HOME, END, N, M, /, LEFT, DOWN, RIGHT, LEFT CONTROL, LEFT ALT, RIGHT GUI, RIGHT ALT, LOWER, SPACE, RAISE, RAISE, ',', ., RIGHT ALT, RIGHT
       GUI, RIGHT CONTROL, RET]
   LOWER:
   - Alt+Gui+ESCAPE
@@ -36,10 +36,10 @@ layers:
   - Ctl+C
   - Ctl+V
   - Alt+Ctl+V
-  - DOWN
-  - UP ARROW
-  - PAGE DOWN
-  - PAGE UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Ctl+PAGE UP
   - Ctl+PAGE DOWN
   - PAGE DOWN
@@ -74,8 +74,8 @@ layers:
   - '='
   - DEL
   - TAB
-  - A
-  - S
+  - Ctl++
+  - Ctl+-
   - DELETE
   - UP ARROW
   - PAGE DOWN
@@ -95,8 +95,8 @@ layers:
   - RIGHT ARROW
   - PAGE DOWN
   - PAGE UP
-  - Ctl+PAGE UP
-  - Ctl+PAGE DOWN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
@@ -184,7 +184,7 @@ layers:
   - ''
   - ''
   - INS
-  - ''
+  - '-'
   - PRINTSCREEN
   - DELETE
   - {t: CAPSLOCK, h: KP NUM}
@@ -198,8 +198,8 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - +
+  - {t: ▽, type: trans}
   - RIGHT SHIFT
   - LEFT SHIFT
   - F11
@@ -214,9 +214,9 @@ layers:
   - '&bootloader'
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - LEFT CONTROL
   - LEFT ALT
   - LEFT GUI
