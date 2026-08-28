@@ -87,7 +87,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp DOWN_ARROW UP_ARROW>,
-                <&inc_dec_kp LEFT RIGHT>;
+                <&inc_dec_kp PAGE_DOWN PAGE_UP>;
         };
 
         lower_layer {
@@ -105,15 +105,15 @@
         raise_layer {
             display-name = "RAISE";
             bindings = <
-&kp N7        &kp N8        &kp N9         &kp MINUS      &kp EQUAL                               &kp DEL          &kp F2         &kp F12      &none            &none              &none           &none
-&kp NUMBER_4  &kp N5        &kp NUMBER_6   &kp PLUS       &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &kp RET          &mkp MB2       &none        &kp GLOBE        &none              &none           &none            &none              &none
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &mo 4          &mt END HOME                            &kp RIGHT_SHIFT  &kp PAGE_DOWN  &kp PAGE_UP  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LEFT_SHIFT  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &none      &none  &none
-&kp N0        &kp PERIOD    &kp RIGHT_GUI  &kp RIGHT_ALT  &kp RIGHT_CONTROL                       &mo 4            &kp RET        &mo 4        &mo 4            &kp LEFT_CONTROL   &kp RET         &kp LEFT_ALT     &kp LEFT_GUI       &kp SPACE
+&kp N7        &kp N8        &kp N9        &kp HOME       &kp END       &kp PAGE_UP      &kp N7         &kp N8       &kp N9           &kp MINUS          &kp EQUAL     &kp DEL
+&kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp DELETE     &kp UP_ARROW  &kp PAGE_DOWN    &mkp MB2       &none        &kp NUMBER_4     &kp N5             &kp NUMBER_6  &kp PLUS       &kp UP_ARROW       &kp RIGHT_SHIFT
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT       &kp DOWN      &kp RIGHT_ARROW  &kp PAGE_DOWN  &kp PAGE_UP  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3       &kp LEFT         &kp DOWN  &kp RIGHT
+&kp N0        &kp PERIOD    &kp RET       &kp RIGHT_ALT  &mo 4         &kp SPACE        &mo 4          &mo 4        &kp N0           &kp PERIOD         &kp RET       &kp RIGHT_GUI  &kp RIGHT_CONTROL  &kp RET
             >;
 
             sensor-bindings =
                 <&inc_dec_kp DOWN UP_ARROW>,
-                <&inc_dec_kp LEFT RIGHT>;
+                <&inc_dec_kp PAGE_DOWN PAGE_UP>;
         };
 
         MOUSE_layer {
