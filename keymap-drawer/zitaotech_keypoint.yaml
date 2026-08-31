@@ -1,8 +1,8 @@
 layout: {zmk_keyboard: zitaotech_keypoint}
 layers:
   QWERTY: [ESCAPE, Q, W, E, R, T, Y, U, I, O, P, BACKSPACE, TAB, A, S, D, F, G, '&mkp LCLK', '&mkp LCLK', H, J, K, L, UP ARROW, RIGHT SHIFT, LEFT SHIFT, Z, X, C,
-    V, B, RET, '&mkp MB2', ESCAPE, '&mkp MB2', N, M, /, LEFT, DOWN, RIGHT, LEFT CONTROL, LEFT ALT, RIGHT GUI, RIGHT ALT, LOWER, SPACE, RAISE, RAISE, ',', ., RIGHT
-      ALT, RIGHT GUI, RIGHT CONTROL, RET]
+    V, B, RET, Alt+Sft+SPACE, RET, ESCAPE, N, M, /, LEFT, DOWN, RIGHT, LEFT CONTROL, LEFT ALT, RIGHT GUI, RIGHT ALT, LOWER, SPACE, RAISE, RAISE, ',', ., RIGHT ALT,
+    RIGHT GUI, RIGHT CONTROL, RET]
   LOWER:
   - Alt+Gui+ESCAPE
   - F12
@@ -16,13 +16,13 @@ layers:
   - (
   - )
   - DELETE
-  - AC NEXT KEYBOARD LAYOUT SELECT
+  - '`'
   - Ctl+A
   - Ctl+S
   - Ctl+D
   - Ctl+F
   - F5
-  - '&mkp MB1'
+  - '&mkp MB2'
   - '&mkp MB1'
   - HOME
   - END
@@ -79,7 +79,7 @@ layers:
   - DELETE
   - UP ARROW
   - PAGE DOWN
-  - '&mkp MB1'
+  - '&mkp MB2'
   - ''
   - '4'
   - '5'
@@ -118,7 +118,7 @@ layers:
   - RIGHT CONTROL
   - RET
   MOUSE: [TAB, Q, W, E, R, T, '&mkp MB1', '&mkp MB2', I, O, P, BSPC, CAPS, A, S, D, F, G, '&mkp LCLK', '&mkp LCLK', '', '&mkp MB3', '', L, UP ARROW, RIGHT SHIFT,
-    LSHFT, Z, X, C, V, B, RET, '&mkp MB2', ESCAPE, '&mkp MB2', N, M, /, LEFT, DOWN, RIGHT, LCTRL, LEFT ALT, LEFT GUI, '', '', SPACE, '', '', ',', ., RIGHT ALT, RIGHT
+    LSHFT, Z, X, C, V, B, RET, Alt+Sft+SPACE, RET, ESCAPE, N, M, /, LEFT, DOWN, RIGHT, LCTRL, LEFT ALT, LEFT GUI, '', '', SPACE, '', '', ',', ., RIGHT ALT, RIGHT
       GUI, RIGHT CONTROL, RET]
   RESERVE:
   - ESCAPE
