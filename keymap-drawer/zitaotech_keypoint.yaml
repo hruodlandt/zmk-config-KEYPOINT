@@ -1,9 +1,9 @@
 layout: {zmk_keyboard: zitaotech_keypoint}
 layers:
   QWERTY: [ESCAPE, Q, W, E, R, T, Y, U, I, O, P, BACKSPACE, TAB, A, S, D, F, G, '&mkp LCLK', '&mkp LCLK', H, J, K, L, UP ARROW, RIGHT SHIFT, LEFT SHIFT, Z, X, C,
-    V, B, RET, Alt+Sft+SPACE, RET, ESCAPE, N, M, /, LEFT, DOWN, RIGHT, LEFT CONTROL, LEFT ALT, RIGHT GUI, RIGHT ALT, LOWER, SPACE, RAISE, RAISE, ',', ., RIGHT ALT,
-    RIGHT GUI, RIGHT CONTROL, RET]
-  LOWER:
+    V, B, RET, Alt+Sft+SPACE, RET, ESCAPE, N, M, /, LEFT, DOWN, RIGHT, LEFT CONTROL, LEFT ALT, RIGHT GUI, RIGHT ALT, Control, SPACE, NumberPad, NumberPad, ',', .,
+    RIGHT ALT, RIGHT GUI, RIGHT CONTROL, RET]
+  Control:
   - Alt+Gui+ESCAPE
   - F12
   - F2
@@ -12,9 +12,9 @@ layers:
   - Ctl+T
   - '&mkp MB1'
   - '&mkp MB2'
-  - INS
-  - (
-  - )
+  - '*'
+  - '-'
+  - '='
   - DELETE
   - '`'
   - Ctl+A
@@ -23,13 +23,13 @@ layers:
   - Ctl+F
   - F5
   - '&mkp MB2'
-  - '&mkp MB1'
-  - HOME
-  - END
-  - PAGE UP
+  - '&mkp MB2'
+  - '|'
+  - (
+  - )
   - '['
   - ']'
-  - '|'
+  - RIGHT SHIFT
   - LEFT SHIFT
   - Ctl+Z
   - Ctl+X
@@ -38,11 +38,11 @@ layers:
   - Alt+Ctl+V
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Ctl+PAGE UP
-  - Ctl+PAGE DOWN
-  - PAGE DOWN
+  - HOME
+  - END
+  - ','
+  - .
+  - /
   - ;
   - ''''
   - '`'
@@ -50,17 +50,17 @@ layers:
   - LEFT ALT
   - LEFT GUI
   - RIGHT ALT
-  - {t: RESERVE, type: held}
+  - {t: Functions, type: held}
   - RET
-  - RESERVE
-  - RESERVE
-  - ''
+  - Functions
+  - Functions
+  - INSERT
+  - DELETE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  RAISE:
+  NumberPad:
   - ESCAPE
   - Alt+F4
   - Ctl+F4
@@ -107,10 +107,10 @@ layers:
   - LEFT ALT
   - LEFT GUI
   - RIGHT ALT
-  - RESERVE
+  - Functions
   - SPACE
-  - {t: RESERVE, type: held}
-  - RESERVE
+  - {t: Functions, type: held}
+  - Functions
   - '0'
   - .
   - RIGHT ALT
@@ -120,36 +120,36 @@ layers:
   MOUSE: [TAB, Q, W, E, R, T, '&mkp MB1', '&mkp MB2', I, O, P, BSPC, CAPS, A, S, D, F, G, '&mkp LCLK', '&mkp LCLK', '', '&mkp MB3', '', L, UP ARROW, RIGHT SHIFT,
     LSHFT, Z, X, C, V, B, RET, Alt+Sft+SPACE, RET, ESCAPE, N, M, /, LEFT, DOWN, RIGHT, LCTRL, LEFT ALT, LEFT GUI, '', '', SPACE, '', '', ',', ., RIGHT ALT, RIGHT
       GUI, RIGHT CONTROL, RET]
-  RESERVE:
+  Functions:
   - ESCAPE
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - BT CLR
   - ''
-  - INS
+  - ''
+  - ''
+  - ''
+  - OUT TOG
+  - F7
+  - F8
+  - F9
   - '-'
   - PRINTSCREEN
   - DELETE
   - {t: CAPSLOCK, h: KP NUM}
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT CLR
+  - '&mkp MB2'
+  - ''
+  - F4
+  - F5
   - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - ''
-  - ''
-  - OUT TOG
-  - ''
-  - ''
   - +
   - {t: ▽, type: trans}
   - RIGHT SHIFT
   - LEFT SHIFT
-  - F11
-  - F12
+  - ''
+  - ''
   - ''
   - ''
   - '&bootloader'
@@ -157,9 +157,9 @@ layers:
   - ''
   - '&bl BL_DEC'
   - '&bl BL_INC'
-  - '&bootloader'
-  - ''
-  - ''
+  - F1
+  - F2
+  - F3
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -171,8 +171,8 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - F10
+  - F11
   - RIGHT ALT
   - RIGHT GUI
   - RIGHT CONTROL
