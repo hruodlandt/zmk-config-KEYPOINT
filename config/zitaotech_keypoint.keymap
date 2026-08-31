@@ -91,12 +91,12 @@
         };
 
         lower_layer {
-            display-name = "LOWER";
+            display-name = "Control";
             bindings = <
-&kp LA(LG(ESCAPE))  &kp F12       &kp F2        &kp LG(E)      &kp LC(R)  &kp LC(T)      &mkp MB1  &mkp MB2  &kp INS   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DELETE
-&kp GRAVE           &kp LC(A)     &kp LC(S)     &kp LC(D)      &kp LC(F)  &kp F5         &mkp MB2  &mkp MB1  &kp HOME  &kp END               &kp PAGE_UP            &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &kp NON_US_BSLH
-&kp LEFT_SHIFT      &kp LC(Z)     &kp LC(X)     &kp LC(C)      &kp LC(V)  &kp LA(LC(V))  &trans    &trans    &trans    &trans                &kp LC(PAGE_UP)        &kp LC(PAGE_DOWN)  &kp PAGE_DOWN      &kp SEMI         &kp APOSTROPHE  &kp GRAVE
-&kp LEFT_CONTROL    &kp LEFT_ALT  &kp LEFT_GUI  &kp RIGHT_ALT  &mo 4      &kp RET        &mo 4     &mo 4     &none     &trans                &trans                 &trans             &trans             &trans
+&kp LA(LG(ESCAPE))  &kp F12       &kp F2        &kp LG(E)      &kp LC(R)  &kp LC(T)      &mkp MB1  &mkp MB2  &kp STAR         &kp MINUS             &kp EQUAL              &kp DELETE
+&kp GRAVE           &kp LC(A)     &kp LC(S)     &kp LC(D)      &kp LC(F)  &kp F5         &mkp MB2  &mkp MB2  &kp NON_US_BSLH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_SHIFT
+&kp LEFT_SHIFT      &kp LC(Z)     &kp LC(X)     &kp LC(C)      &kp LC(V)  &kp LA(LC(V))  &trans    &trans    &kp HOME         &kp END               &kp COMMA              &kp PERIOD        &kp SLASH          &kp SEMI         &kp APOSTROPHE  &kp GRAVE
+&kp LEFT_CONTROL    &kp LEFT_ALT  &kp LEFT_GUI  &kp RIGHT_ALT  &mo 4      &kp RET        &mo 4     &mo 4     &kp INSERT       &kp DELETE            &trans                 &trans            &trans             &trans
             >;
 
             sensor-bindings =
@@ -105,7 +105,7 @@
         };
 
         raise_layer {
-            display-name = "RAISE";
+            display-name = "NumberPad";
             bindings = <
 &kp ESCAPE        &kp LA(F4)       &kp LC(F4)         &kp HOME       &kp END       &kp PAGE_UP      &kp N7    &kp N8  &kp N9        &kp MINUS   &kp EQUAL      &kp DEL
 &kp TAB           &kp LC(PLUS)     &kp LC(MINUS)      &kp DELETE     &kp UP_ARROW  &kp PAGE_DOWN    &mkp MB2  &none   &kp NUMBER_4  &kp N5      &kp NUMBER_6   &kp PLUS       &kp UP_ARROW       &kp RIGHT_SHIFT
@@ -133,12 +133,12 @@
         };
 
         RES_layer {
-            display-name = "RESERVE";
+            display-name = "Functions";
             bindings = <
-&kp ESCAPE           &kp F1        &kp F2        &kp F3      &kp F4  &kp F5       &bt BT_CLR  &none  &kp INS       &kp MINUS   &kp PRINTSCREEN  &kp DELETE
-&mt KP_NUM CAPSLOCK  &kp F6        &kp F7        &kp F8      &kp F9  &kp F10      &none       &none  &out OUT_TOG  &none       &none            &kp PLUS       &trans             &kp RIGHT_SHIFT
-&kp LEFT_SHIFT       &kp F11       &kp F12       &none       &none   &bootloader  &none       &none  &bl BL_DEC    &bl BL_INC  &bootloader      &none          &none              &trans           &trans  &trans
-&kp LEFT_CONTROL     &kp LEFT_ALT  &kp LEFT_GUI  &kp C_MUTE  &none   &none        &none       &none  &none         &none       &kp RIGHT_ALT    &kp RIGHT_GUI  &kp RIGHT_CONTROL  &kp RET
+&kp ESCAPE           &none         &none         &none       &none  &out OUT_TOG  &kp F7    &kp F8  &kp F9      &kp MINUS   &kp PRINTSCREEN  &kp DELETE
+&mt KP_NUM CAPSLOCK  &none         &none         &none       &none  &bt BT_CLR    &mkp MB2  &none   &kp F4      &kp F5      &kp F6           &kp PLUS       &trans             &kp RIGHT_SHIFT
+&kp LEFT_SHIFT       &none         &none         &none       &none  &bootloader   &none     &none   &bl BL_DEC  &bl BL_INC  &kp F1           &kp F2         &kp F3             &trans           &trans  &trans
+&kp LEFT_CONTROL     &kp LEFT_ALT  &kp LEFT_GUI  &kp C_MUTE  &none  &none         &none     &none   &kp F10     &kp F11     &kp RIGHT_ALT    &kp RIGHT_GUI  &kp RIGHT_CONTROL  &kp RET
             >;
 
             sensor-bindings =
