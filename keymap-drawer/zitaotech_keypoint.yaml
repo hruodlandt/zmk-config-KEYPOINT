@@ -1,8 +1,8 @@
 layout: {zmk_keyboard: zitaotech_keypoint}
 layers:
   QWERTY: [Y, U, I, O, P, BACKSPACE, ESCAPE, Q, W, E, R, T, H, J, K, L, UP ARROW, RIGHT SHIFT, '&mkp LCLK', '&mkp LCLK', TAB, A, S, D, F, G, N, M, /, LEFT, DOWN,
-    RIGHT, Alt+Sft+SPACE, ESCAPE, '&mkp MB1', '&mkp MB2', LEFT SHIFT, Z, X, C, V, B, ',', ., RIGHT GUI, RIGHT ALT, RIGHT CONTROL, RET, NumberPad, Control, LEFT CONTROL,
-    LEFT ALT, '', RIGHT GUI, NumberPad, SPACE]
+    RIGHT, ESCAPE, '&mkp MB2', '&mkp MB1', '&mkp MB2', LEFT SHIFT, Z, X, C, V, B, ',', ., NumberPad, RIGHT ALT, RIGHT CONTROL, RIGHT GUI, RET, Control, LEFT CONTROL,
+    LEFT GUI, '', LEFT ALT, NumberPad, SPACE]
   Control:
   - '|'
   - \
@@ -38,7 +38,7 @@ layers:
   - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+Sft+SPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Ctl+Z
@@ -48,11 +48,11 @@ layers:
   - Ctl+Alt+V
   - ','
   - .
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - RET
   - Functions
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: Functions, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -95,7 +95,7 @@ layers:
   - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB1'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Ctl+PAGE UP
@@ -105,11 +105,11 @@ layers:
   - Alt+Ctl+V
   - '0'
   - .
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - RET
   - {t: Functions, type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Functions
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -162,11 +162,11 @@ layers:
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - RET
   - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -219,11 +219,11 @@ layers:
   - ''
   - F10
   - F11
-  - LEFT GUI
+  - {t: LEFT GUI, type: held}
   - {t: ▽, type: trans}
   - RIGHT CONTROL
   - RET
-  - {type: held}
+  - ''
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
