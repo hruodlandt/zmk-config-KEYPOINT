@@ -1,179 +1,233 @@
 layout: {zmk_keyboard: zitaotech_keypoint}
 layers:
-  QWERTY: [ESCAPE, Q, W, E, R, T, Y, U, I, O, P, BACKSPACE, TAB, A, S, D, F, G, '&mkp LCLK', '&mkp LCLK', H, J, K, L, UP ARROW, RIGHT SHIFT, LEFT SHIFT, Z, X, C,
-    V, B, RET, Alt+Sft+SPACE, RET, ESCAPE, N, M, /, LEFT, DOWN, RIGHT, LEFT CONTROL, LEFT ALT, RIGHT GUI, RIGHT ALT, Control, SPACE, NumberPad, NumberPad, ',', .,
-    RIGHT ALT, RIGHT GUI, RIGHT CONTROL, RET]
+  QWERTY: [Y, U, I, O, P, BACKSPACE, ESCAPE, Q, W, E, R, T, H, J, K, L, UP ARROW, RIGHT SHIFT, '&mkp LCLK', '&mkp LCLK', TAB, A, S, D, F, G, N, M, /, LEFT, DOWN,
+    RIGHT, Alt+Sft+SPACE, ESCAPE, '&mkp MB1', '&mkp MB2', LEFT SHIFT, Z, X, C, V, B, ',', ., RIGHT GUI, RIGHT ALT, RIGHT CONTROL, RET, NumberPad, Control, LEFT CONTROL,
+    LEFT ALT, '', RIGHT GUI, NumberPad, SPACE]
   Control:
-  - Alt+Gui+ESCAPE
-  - F12
-  - F2
-  - Gui+E
-  - Ctl+R
-  - Ctl+T
-  - '&mkp MB1'
-  - '&mkp MB2'
+  - '`'
+  - '|'
   - '*'
   - '-'
   - '='
-  - DELETE
+  - DEL
+  - F2
+  - F12
+  - Sft+F10
+  - Gui+E
+  - Ctl+R
+  - Ctl+T
+  - '['
+  - ']'
+  - ;
+  - ''''
+  - PAGE UP
+  - {t: ▽, type: trans}
+  - '&mkp MB2'
+  - '&mkp MB2'
   - '`'
   - Ctl+A
   - Ctl+S
   - Ctl+D
   - Ctl+F
   - F5
-  - '&mkp MB2'
-  - '&mkp MB2'
-  - '|'
   - (
   - )
-  - '['
-  - ']'
-  - RIGHT SHIFT
-  - LEFT SHIFT
+  - /
+  - HOME
+  - PAGE DOWN
+  - END
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Ctl+Z
   - Ctl+X
   - Ctl+C
   - Ctl+V
-  - Alt+Ctl+V
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - HOME
-  - END
+  - Ctl+Alt+V
   - ','
   - .
-  - /
-  - ;
-  - ''''
-  - '`'
-  - LEFT CONTROL
-  - LEFT ALT
-  - LEFT GUI
-  - RIGHT ALT
-  - {t: Functions, type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - RET
   - Functions
+  - {t: Functions, type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: QWERTY, h: toggle}
+  - {t: ▽, type: trans}
   - Functions
-  - INSERT
-  - DELETE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NumberPad:
-  - ESCAPE
-  - Alt+F4
-  - Ctl+F4
-  - HOME
-  - END
-  - PAGE UP
   - '7'
   - '8'
   - '9'
   - '-'
   - '='
-  - DEL
-  - TAB
-  - Ctl++
-  - Ctl+-
   - DELETE
+  - Alt+Gui+ESCAPE
+  - HOME
   - UP ARROW
-  - PAGE DOWN
-  - '&mkp MB2'
-  - ''
+  - END
+  - PAGE UP
+  - BACKSPACE
   - '4'
   - '5'
   - '6'
   - +
-  - UP ARROW
+  - PAGE UP
   - RIGHT SHIFT
-  - LEFT SHIFT
-  - Ctl+PAGE UP
-  - Ctl+PAGE DOWN
+  - '&mkp MB2'
+  - ''
+  - TAB
   - LEFT
-  - DOWN
-  - RIGHT ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - HOME
-  - END
+  - DOWN ARROW
+  - RIGHT
+  - PAGE DOWN
+  - F5
   - '1'
   - '2'
   - '3'
-  - LEFT
-  - DOWN
-  - RIGHT
-  - LEFT CONTROL
-  - LEFT ALT
-  - LEFT GUI
-  - RIGHT ALT
-  - Functions
-  - SPACE
-  - {t: Functions, type: held}
-  - Functions
+  - HOME
+  - PAGE DOWN
+  - END
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+PAGE UP
+  - Ctl+PAGE DOWN
+  - Ctl+C
+  - Ctl+V
+  - Alt+Ctl+V
   - '0'
   - .
-  - RIGHT ALT
-  - RIGHT GUI
-  - RIGHT CONTROL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - RET
-  MOUSE: [TAB, Q, W, E, R, T, '&mkp MB1', '&mkp MB2', I, O, P, BSPC, CAPS, A, S, D, F, G, '&mkp LCLK', '&mkp LCLK', '', '&mkp MB3', '', L, UP ARROW, RIGHT SHIFT,
-    LSHFT, Z, X, C, V, B, RET, Alt+Sft+SPACE, RET, ESCAPE, N, M, /, LEFT, DOWN, RIGHT, LCTRL, LEFT ALT, LEFT GUI, '', '', SPACE, '', '', ',', ., RIGHT ALT, RIGHT
-      GUI, RIGHT CONTROL, RET]
+  - {t: Functions, type: held}
+  - Functions
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: QWERTY, h: toggle}
+  - {t: ▽, type: trans}
+  - Functions
+  - RET
+  MOUSE:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BACKSPACE
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - '&mkp LCLK'
+  - '&mkp LCLK'
+  - ''
+  - '&mkp MB3'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - RET
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: QWERTY, h: toggle}
+  - {t: ▽, type: trans}
+  - ''
+  - SPACE
   Functions:
+  - F7
+  - F8
+  - F9
+  - F12
+  - PRINTSCREEN
+  - DELETE
   - ESCAPE
   - ''
   - ''
   - ''
-  - ''
-  - OUT TOG
-  - F7
-  - F8
-  - F9
-  - '-'
-  - PRINTSCREEN
-  - DELETE
-  - {t: CAPSLOCK, h: KP NUM}
-  - ''
-  - ''
-  - ''
-  - ''
   - BT CLR
-  - '&mkp MB2'
-  - ''
+  - OUT TOG
   - F4
   - F5
   - F6
-  - +
-  - {t: ▽, type: trans}
+  - INSERT
+  - UP ARROW
   - RIGHT SHIFT
-  - LEFT SHIFT
+  - '&mkp MB2'
+  - ''
+  - {t: CAPSLOCK, h: KP NUMLOCK}
   - ''
   - ''
   - ''
   - ''
-  - '&bootloader'
+  - ''
+  - F1
+  - F2
+  - F3
+  - LEFT
+  - DOWN ARROW
+  - RIGHT
   - ''
   - ''
   - '&bl BL_DEC'
   - '&bl BL_INC'
-  - F1
-  - F2
-  - F3
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT CONTROL
-  - LEFT ALT
-  - LEFT GUI
-  - MUTE
-  - {type: held}
+  - ''
+  - ''
   - ''
   - ''
   - ''
   - F10
   - F11
-  - RIGHT ALT
-  - RIGHT GUI
+  - LEFT GUI
+  - {t: ▽, type: trans}
   - RIGHT CONTROL
   - RET
+  - {type: held}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: QWERTY, h: toggle}
+  - RIGHT GUI
+  - ''
+  - SPACE
