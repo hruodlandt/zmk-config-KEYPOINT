@@ -4,8 +4,8 @@ layers:
     RIGHT, Alt+Sft+SPACE, ESCAPE, '&mkp MB1', '&mkp MB2', LEFT SHIFT, Z, X, C, V, B, ',', ., RIGHT GUI, RIGHT ALT, RIGHT CONTROL, RET, NumberPad, Control, LEFT CONTROL,
     LEFT ALT, '', RIGHT GUI, NumberPad, SPACE]
   Control:
-  - '`'
   - '|'
+  - \
   - '*'
   - '-'
   - '='
