@@ -1,8 +1,8 @@
 layout: {zmk_keyboard: zitaotech_keypoint}
 layers:
   QWERTY: [Y, U, I, O, P, BACKSPACE, ESCAPE, Q, W, E, R, T, H, J, K, L, UP ARROW, RIGHT SHIFT, '&mkp LCLK', '&mkp LCLK', TAB, A, S, D, F, G, N, M, /, LEFT, DOWN,
-    RIGHT, ESCAPE, '&mkp MB2', '&mkp MB1', '&mkp MB2', LEFT SHIFT, Z, X, C, V, B, ',', ., NumberPad, RIGHT ALT, RIGHT CONTROL, RIGHT GUI, RET, Control, LEFT CONTROL,
-    LEFT GUI, '', LEFT ALT, NumberPad, SPACE]
+    RIGHT, ESCAPE, '&mkp MB2', '&mkp MB1', '&mkp MB2', LEFT SHIFT, Z, X, C, V, B, ',', ., NumberPad, RIGHT ALT, RIGHT GUI, RIGHT CONTROL, RET, Control, LEFT CONTROL,
+    LEFT ALT, '', LEFT GUI, NumberPad, SPACE]
   Control:
   - '|'
   - \
@@ -22,8 +22,8 @@ layers:
   - ''''
   - PAGE UP
   - {t: ▽, type: trans}
-  - '&mkp MB2'
-  - '&mkp MB2'
+  - '&mkp MB1'
+  - '&mkp MB1'
   - '`'
   - Ctl+A
   - Ctl+S
@@ -79,7 +79,7 @@ layers:
   - +
   - PAGE UP
   - RIGHT SHIFT
-  - '&mkp MB2'
+  - '&mkp MB1'
   - ''
   - TAB
   - LEFT
@@ -193,7 +193,7 @@ layers:
   - INSERT
   - UP ARROW
   - RIGHT SHIFT
-  - '&mkp MB2'
+  - '&mkp MB1'
   - ''
   - {t: CAPSLOCK, h: KP NUMLOCK}
   - ''
@@ -219,15 +219,15 @@ layers:
   - ''
   - F10
   - F11
-  - {t: LEFT GUI, type: held}
+  - {type: held}
   - {t: ▽, type: trans}
-  - RIGHT CONTROL
-  - RET
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: QWERTY, h: toggle}
-  - RIGHT GUI
+  - {t: ▽, type: trans}
   - ''
   - SPACE
