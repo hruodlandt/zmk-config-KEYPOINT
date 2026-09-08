@@ -67,7 +67,7 @@ layers:
   - '-'
   - '='
   - DELETE
-  - Alt+Gui+ESCAPE
+  - F2
   - HOME
   - UP ARROW
   - END
@@ -101,7 +101,7 @@ layers:
   - Ctl+PAGE UP
   - Ctl+PAGE DOWN
   - Ctl+C
-  - Ctl+V
+  - '&pastevalue'
   - Alt+Ctl+V
   - '0'
   - .
@@ -184,7 +184,7 @@ layers:
   - ESCAPE
   - ''
   - ''
-  - ''
+  - {t: MM6, h: toggle}
   - BT CLR
   - OUT TOG
   - F4
@@ -230,4 +230,61 @@ layers:
   - {t: QWERTY, h: toggle}
   - {t: ▽, type: trans}
   - ''
+  - SPACE
+  MM6:
+  - '7'
+  - '8'
+  - '9'
+  - '-'
+  - '='
+  - BACKSPACE
+  - ESC
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '4'
+  - '5'
+  - '6'
+  - +
+  - UP ARROW
+  - RIGHT SHIFT
+  - '&mkp MB1'
+  - ''
+  - PAGE UP
+  - A
+  - UP ARROW
+  - S
+  - F5
+  - F6
+  - '1'
+  - '2'
+  - '3'
+  - LEFT
+  - DOWN
+  - RIGHT
+  - ESCAPE
+  - '&mkp MB2'
+  - Q
+  - M
+  - PAGE DOWN
+  - LEFT
+  - DOWN
+  - RIGHT
+  - F7
+  - F8
+  - '0'
+  - .
+  - SPACE
+  - {t: QWERTY, h: toggle}
+  - RIGHT GUI
+  - RIGHT CONTROL
+  - RET
+  - LSHFT
+  - LSHFT
+  - X
+  - {t: QWERTY, h: toggle}
+  - C
+  - RET
   - SPACE
