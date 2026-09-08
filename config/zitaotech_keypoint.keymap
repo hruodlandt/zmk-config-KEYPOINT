@@ -160,8 +160,8 @@
             bindings = <
 &kp N7        &kp N8        &kp N9        &kp MINUS  &kp EQUAL      &kp BACKSPACE      &kp ESC     &kp N1     &kp N2       &kp N3  &kp N4         &kp N5
 &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS   &kp UP_ARROW   &kp RIGHT_SHIFT    &mkp MB1    &none      &kp PAGE_UP  &kp A   &kp UP_ARROW   &kp S     &kp F5    &kp F6
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT   &kp DOWN       &kp RIGHT          &kp ESCAPE  &mkp MB2   &kp Q        &kp M   &kp PAGE_DOWN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp F7  &kp F8
-&kp N0        &kp PERIOD    &kp SPACE     &to 0      &kp RIGHT_GUI  &kp RIGHT_CONTROL  &kp RET     &kp LSHFT  &kp LSHFT    &kp X   &to 0          &kp C     &kp RET   &kp SPACE
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT   &kp DOWN       &kp RIGHT          &kp ESCAPE  &mkp MB2   &kp Q        &kp R   &kp PAGE_DOWN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp F7  &kp F8
+&kp N0        &kp PERIOD    &kp SPACE     &to 0      &kp RIGHT_GUI  &kp RIGHT_CONTROL  &kp RET     &kp LSHFT  &kp END      &kp X   &kp M          &kp C     &kp RET   &kp SPACE
             >;
 
             sensor-bindings =
