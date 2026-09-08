@@ -264,7 +264,7 @@ layers:
   - LEFT
   - DOWN
   - RIGHT
-  - ESCAPE
+  - Alt+Sft+ESCAPE
   - '&mkp MB2'
   - Q
   - R
