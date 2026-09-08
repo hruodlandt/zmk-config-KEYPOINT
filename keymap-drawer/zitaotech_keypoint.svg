@@ -1484,7 +1484,7 @@ path.combo {
 </g>
 <g transform="translate(508, 160)" class="key keypos-35">
 <rect rx="6" ry="6" x="-19" y="-12" width="38" height="24" class="key"/>
-<text x="0" y="0" class="key tap">M</text>
+<text x="0" y="0" class="key tap">R</text>
 </g>
 <g transform="translate(560, 154)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1552,7 +1552,7 @@ path.combo {
 </g>
 <g transform="translate(553, 212) rotate(-11.93)" class="key keypos-50">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">LSHFT</text>
+<text x="0" y="0" class="key tap">END</text>
 </g>
 <g transform="translate(616, 203)" class="key keypos-51">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1560,9 +1560,7 @@ path.combo {
 </g>
 <g transform="translate(672, 196)" class="key keypos-52">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#QWERTY">
-<text x="0" y="0" class="key tap layer-activator">QWERTY</text>
-</a><text x="0" y="24" class="key hold">toggle</text>
+<text x="0" y="0" class="key tap">M</text>
 </g>
 <g transform="translate(728, 203)" class="key keypos-53">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>

@@ -267,7 +267,7 @@ layers:
   - ESCAPE
   - '&mkp MB2'
   - Q
-  - M
+  - R
   - PAGE DOWN
   - LEFT
   - DOWN
@@ -282,9 +282,9 @@ layers:
   - RIGHT CONTROL
   - RET
   - LSHFT
-  - LSHFT
+  - END
   - X
-  - {t: QWERTY, h: toggle}
+  - M
   - C
   - RET
   - SPACE
