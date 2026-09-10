@@ -81,6 +81,30 @@
             label = "PASTEVALUE";
             wait-ms = <100>;
         };
+
+        cutline: cutline {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(SPACE) &kp LC(X)>;
+            label = "CUTLINE";
+            wait-ms = <290>;
+        };
+
+        addline: Adeline {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(SPACE) &kp LC(PLUS)>;
+            label = "ADELINE";
+            wait-ms = <290>;
+        };
+
+        delline: delline {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(SPACE) &kp LC(MINUS)>;
+            label = "DELLINE";
+            wait-ms = <290>;
+        };
     };
 
     keymap {
@@ -118,9 +142,9 @@
             display-name = "NumberPad";
             bindings = <
 &kp N7  &kp N8      &kp N9  &kp MINUS  &kp EQUAL      &kp DELETE       &kp F2    &kp HOME  &kp UP_ARROW  &kp END   &kp PAGE_UP     &kp BACKSPACE
-&kp N4  &kp N5      &kp N6  &kp PLUS   &kp PAGE_UP    &kp RIGHT_SHIFT  &mkp MB1  &none     &kp TAB       &kp LEFT  &kp DOWN_ARROW  &kp RIGHT        &kp PAGE_DOWN      &kp F5
-&kp N1  &kp N2      &kp N3  &kp HOME   &kp PAGE_DOWN  &kp END          &trans    &trans    &mkp MB1      &trans    &trans          &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LC(C)  &pastevalue  &kp LA(LC(V))
-&kp N0  &kp PERIOD  &mo 4   &trans     &trans         &trans           &trans    &mo 4     &trans        &trans    &to 0           &trans           &mo 4              &kp RET
+&kp N4  &kp N5      &kp N6  &kp PLUS   &kp PAGE_UP    &kp RIGHT_SHIFT  &mkp MB1  &none     &kp TAB       &kp LEFT  &kp DOWN_ARROW  &kp RIGHT      &kp PAGE_DOWN  &kp F5
+&kp N1  &kp N2      &kp N3  &kp HOME   &kp PAGE_DOWN  &kp END          &trans    &trans    &mkp MB1      &trans    &trans          &delline       &addline       &cutline  &pastevalue  &kp LA(LC(V))
+&kp N0  &kp PERIOD  &mo 4   &trans     &trans         &trans           &trans    &mo 4     &trans        &trans    &to 0           &trans         &mo 4          &kp RET
             >;
 
             sensor-bindings =
@@ -158,10 +182,10 @@
 
         MM6 {
             bindings = <
-&kp N7        &kp N8        &kp N9        &kp MINUS  &kp EQUAL      &kp BACKSPACE      &kp ESC             &kp N1     &kp N2       &kp N3  &kp N4         &kp N5
-&kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS   &kp UP_ARROW   &kp RIGHT_SHIFT    &mkp MB1            &none      &kp PAGE_UP  &kp A   &kp UP_ARROW   &kp S     &kp F5    &kp F6
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT   &kp DOWN       &kp RIGHT          &kp LA(LS(ESCAPE))  &mkp MB2   &kp Q        &kp R   &kp PAGE_DOWN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp F7  &kp F8
-&kp N0        &kp PERIOD    &kp SPACE     &to 0      &kp RIGHT_GUI  &kp RIGHT_CONTROL  &kp RET             &kp LSHFT  &kp END      &kp X   &kp M          &kp C     &kp RET   &kp SPACE
+&kp N7        &kp N8        &kp N9        &kp MINUS  &kp EQUAL      &kp BACKSPACE      &kp ESC             &kp N1     &kp N2            &kp N3  &kp N4         &kp N5
+&kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS   &kp UP_ARROW   &kp RIGHT_SHIFT    &mkp MB1            &none      &kp PAGE_UP       &kp A   &kp UP_ARROW   &kp S     &kp F5    &kp F6
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT   &kp DOWN       &kp RIGHT          &kp LA(LS(ESCAPE))  &mkp MB2   &kp Q             &kp R   &kp PAGE_DOWN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp F7  &kp F8
+&kp N0        &kp PERIOD    &kp SPACE     &to 0      &kp RIGHT_GUI  &kp RIGHT_CONTROL  &kp RET             &kp LSHFT  &kp LEFT_CONTROL  &kp X   &kp M          &kp C     &kp RET   &kp SPACE
             >;
 
             sensor-bindings =
