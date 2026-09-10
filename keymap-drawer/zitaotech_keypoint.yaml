@@ -98,9 +98,9 @@ layers:
   - '&mkp MB1'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+PAGE UP
-  - Ctl+PAGE DOWN
-  - Ctl+C
+  - '&delline'
+  - '&addline'
+  - '&cutline'
   - '&pastevalue'
   - Alt+Ctl+V
   - '0'
@@ -282,7 +282,7 @@ layers:
   - RIGHT CONTROL
   - RET
   - LSHFT
-  - END
+  - LEFT CONTROL
   - X
   - M
   - C
