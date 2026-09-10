@@ -127,9 +127,9 @@
         lower_layer {
             display-name = "Control";
             bindings = <
-&kp NON_US_BSLH       &kp BACKSLASH          &kp STAR   &kp MINUS  &kp EQUAL      &kp DEL  &kp F2    &kp F12   &kp LS(F10)        &kp LG(E)  &kp LC(R)  &kp LC(T)
+&kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp STAR   &kp MINUS  &kp EQUAL      &kp DEL  &kp F2    &kp F12   &kp LS(F10)        &kp LG(E)  &kp LC(R)  &kp LC(T)
 &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SEMI   &kp APOS   &kp PAGE_UP    &trans   &mkp MB1  &mkp MB1  &kp GRAVE          &kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp F5
-&kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH  &kp HOME   &kp PAGE_DOWN  &kp END  &trans    &trans    &kp LA(LS(SPACE))  &trans     &trans     &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(LA(V))
+&kp NON_US_BSLH       &kp BACKSLASH          &kp SLASH  &kp HOME   &kp PAGE_DOWN  &kp END  &trans    &trans    &kp LA(LS(SPACE))  &trans     &trans     &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(LA(V))
 &kp COMMA             &kp PERIOD             &mo 4      &trans     &trans         &trans   &trans    &mo 4     &trans             &trans     &to 0      &trans     &mo 4      &trans
             >;
 
