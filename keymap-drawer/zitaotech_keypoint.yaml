@@ -1,62 +1,62 @@
 layout: {zmk_keyboard: zitaotech_keypoint}
 layers:
   QWERTY: [Y, U, I, O, P, BACKSPACE, ESCAPE, Q, W, E, R, T, H, J, K, L, UP ARROW, RIGHT SHIFT, '&mkp LCLK', '&mkp LCLK', TAB, A, S, D, F, G, N, M, /, LEFT, DOWN,
-    RIGHT, ESCAPE, '&mkp MB2', '&mkp MB1', '&mkp MB2', LEFT SHIFT, Z, X, C, V, B, ',', ., NumberPad, RIGHT ALT, RIGHT GUI, RIGHT CONTROL, RET, Control, LEFT CONTROL,
-    LEFT ALT, '', LEFT GUI, NumberPad, SPACE]
+    RIGHT, ESCAPE, '&mkp MB2', '&mkp MB1', '&mkp MB2', LEFT SHIFT, Z, X, C, V, B, ',', ., NumberPad, NumberPad, RIGHT GUI, RIGHT CONTROL, RET, Control, LEFT CONTROL,
+    LEFT ALT, Control, LEFT GUI, NumberPad, SPACE]
   Control:
-  - (
-  - )
-  - '*'
+  - '7'
+  - '8'
+  - '9'
   - '-'
   - '='
   - DEL
   - F2
   - F12
   - Sft+F10
-  - Gui+E
-  - Ctl+R
-  - Ctl+T
-  - '['
-  - ']'
-  - ;
-  - ''''
+  - Sft+F11
+  - Sft+F8
+  - Gui+Sft+T
+  - '4'
+  - '5'
+  - '6'
+  - +
   - PAGE UP
   - {t: ▽, type: trans}
   - '&mkp MB1'
   - '&mkp MB1'
-  - '`'
-  - Ctl+A
-  - Ctl+S
-  - Ctl+D
-  - Ctl+F
+  - Alt+Sft+SPACE
+  - Ctl++
+  - Ctl+-
+  - Ctl+;
+  - Sft+F9
   - F5
-  - '|'
-  - \
-  - /
+  - '1'
+  - '2'
+  - '3'
   - HOME
   - PAGE DOWN
   - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Alt+Sft+SPACE
+  - Ctl+Gui+SPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+Z
-  - Ctl+X
+  - Ctl+SPACE
+  - Sft+SPACE
   - Ctl+C
   - Ctl+V
   - Ctl+Alt+V
-  - ','
+  - '0'
   - .
   - Functions
-  - {t: ▽, type: trans}
+  - Functions
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: Functions, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: QWERTY, h: toggle}
+  - Functions
   - {t: ▽, type: trans}
   - Functions
   - {t: ▽, type: trans}
@@ -67,12 +67,12 @@ layers:
   - '-'
   - '='
   - DELETE
-  - F2
+  - Alt+ESCAPE
   - HOME
   - UP ARROW
   - END
   - PAGE UP
-  - BACKSPACE
+  - F2
   - '4'
   - '5'
   - '6'
@@ -81,7 +81,7 @@ layers:
   - RIGHT SHIFT
   - '&mkp MB1'
   - ''
-  - TAB
+  - '`'
   - LEFT
   - DOWN ARROW
   - RIGHT
@@ -106,14 +106,14 @@ layers:
   - '0'
   - .
   - {t: Functions, type: held}
-  - {t: ▽, type: trans}
+  - Functions
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Functions
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: QWERTY, h: toggle}
+  - Functions
   - {t: ▽, type: trans}
   - Functions
   - RET
@@ -163,14 +163,14 @@ layers:
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: QWERTY, h: toggle}
+  - ''
   - {t: ▽, type: trans}
   - ''
   - SPACE
@@ -182,7 +182,7 @@ layers:
   - PRINTSCREEN
   - DELETE
   - ESCAPE
-  - ''
+  - {t: QWERTY, h: toggle}
   - ''
   - {t: MM6, h: toggle}
   - BT CLR
@@ -190,23 +190,23 @@ layers:
   - F4
   - F5
   - F6
-  - INSERT
-  - UP ARROW
+  - ;
+  - ''''
   - RIGHT SHIFT
   - '&mkp MB1'
   - ''
   - {t: CAPSLOCK, h: KP NUMLOCK}
-  - ''
-  - ''
+  - INS
+  - PAUSE BREAK
   - ''
   - ''
   - ''
   - F1
   - F2
   - F3
-  - LEFT
-  - DOWN ARROW
-  - RIGHT
+  - {t: (, h: )}
+  - {t: '[', h: ']'}
+  - {t: \, h: '|'}
   - ''
   - ''
   - '&bl BL_DEC'
@@ -220,14 +220,14 @@ layers:
   - F10
   - F11
   - {type: held}
-  - {t: ▽, type: trans}
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: QWERTY, h: toggle}
+  - ''
   - {t: ▽, type: trans}
   - ''
   - SPACE
