@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: zitaotech_keypoint}
 layers:
   QWERTY: [Y, U, I, O, P, BACKSPACE, ESCAPE, Q, W, E, R, T, H, J, K, L, UP ARROW, RIGHT SHIFT, '&mkp LCLK', '&mkp LCLK', TAB, A, S, D, F, G, N, M, /, LEFT, DOWN,
-    RIGHT, ESCAPE, '&mkp MB2', '&mkp MB1', '&mkp MB2', LEFT SHIFT, Z, X, C, V, B, ',', ., NumberPad, NumberPad, RIGHT GUI, RIGHT CONTROL, RET, Control, LEFT CONTROL,
+    RIGHT, ESCAPE, '&mkp MB2', '&mkp MB1', '&mkp MB2', LEFT SHIFT, Z, X, C, V, B, ',', ., RIGHT GUI, NumberPad, NumberPad, RIGHT CONTROL, RET, Control, LEFT CONTROL,
     LEFT ALT, Control, LEFT GUI, NumberPad, SPACE]
   Control:
   - '7'
@@ -48,9 +48,9 @@ layers:
   - Ctl+Alt+V
   - '0'
   - .
-  - Functions
-  - Functions
   - {t: ▽, type: trans}
+  - Functions
+  - Functions
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: Functions, type: held}
@@ -105,9 +105,9 @@ layers:
   - Alt+Ctl+V
   - '0'
   - .
+  - {t: ▽, type: trans}
   - {t: Functions, type: held}
   - Functions
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Functions
@@ -162,9 +162,9 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
   - {t: ▽, type: trans}
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
@@ -219,9 +219,9 @@ layers:
   - ''
   - F10
   - F11
+  - {t: ▽, type: trans}
   - {type: held}
   - ''
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -276,9 +276,9 @@ layers:
   - F8
   - '0'
   - .
-  - SPACE
-  - {t: QWERTY, h: toggle}
   - RIGHT GUI
+  - {t: QWERTY, h: toggle}
+  - ''
   - RIGHT CONTROL
   - RET
   - LSHFT
