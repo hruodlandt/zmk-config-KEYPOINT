@@ -39,7 +39,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Ctl+Gui+SPACE
-  - {t: ▽, type: trans}
+  - {t: Functions, h: toggle}
   - {t: ▽, type: trans}
   - Ctl+SPACE
   - Sft+SPACE
@@ -208,7 +208,7 @@ layers:
   - {t: '[', h: ']'}
   - {t: \, h: '|'}
   - ''
-  - ''
+  - PAUSE BREAK
   - '&bl BL_DEC'
   - '&bl BL_INC'
   - {t: ▽, type: trans}
