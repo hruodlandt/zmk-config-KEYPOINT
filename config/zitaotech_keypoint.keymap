@@ -105,6 +105,13 @@
             label = "DELLINE";
             wait-ms = <290>;
         };
+
+        eminsert: eminsert {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp INS &kp RET>;
+            label = "EMINSERT";
+        };
     };
 
     keymap {
@@ -169,10 +176,10 @@
         RES_layer {
             display-name = "Functions";
             bindings = <
-&kp F7   &kp F8   &kp F9  &kp F12                                 &kp PRINTSCREEN                 &kp DELETE                 &kp ESCAPE  &to 0  &none                    &to 5       &bt BT_CLR       &out OUT_TOG
-&kp F4   &kp F5   &kp F6  &kp SEMI                                &kp APOSTROPHE                  &kp RIGHT_SHIFT            &mkp MB1    &none  &mt KP_NUMLOCK CAPSLOCK  &kp INS     &kp PAUSE_BREAK  &none         &none  &none
-&kp F1   &kp F2   &kp F3  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &mt RIGHT_BRACKET LEFT_BRACKET  &mt NON_US_BSLH BACKSLASH  &none       &none  &bl BL_DEC               &bl BL_INC  &trans           &none         &none  &none      &none  &none
-&kp F10  &kp F11  &trans  &none                                   &none                           &trans                     &trans      &none  &trans                   &trans      &none            &trans        &none  &kp SPACE
+&kp F7   &kp F8   &kp F9  &kp F12                                 &kp PRINTSCREEN                 &kp DELETE                 &kp ESCAPE  &to 0  &to 4                    &to 5       &bt BT_CLR    &out OUT_TOG
+&kp F4   &kp F5   &kp F6  &kp SEMI                                &kp APOSTROPHE                  &kp RIGHT_SHIFT            &mkp MB1    &none  &mt KP_NUMLOCK CAPSLOCK  &kp INS     &kp UP_ARROW  &kp DEL       &none     &none
+&kp F1   &kp F2   &kp F3  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &mt RIGHT_BRACKET LEFT_BRACKET  &mt NON_US_BSLH BACKSLASH  &none       &none  &bl BL_DEC               &bl BL_INC  &trans        &eminsert     &kp DOWN  &kp RET    &none  &none
+&kp F10  &kp F11  &trans  &none                                   &none                           &trans                     &trans      &none  &trans                   &trans      &none         &trans        &none     &kp SPACE
             >;
 
             sensor-bindings =
