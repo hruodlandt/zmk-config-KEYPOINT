@@ -183,7 +183,7 @@ layers:
   - DELETE
   - ESCAPE
   - {t: QWERTY, h: toggle}
-  - ''
+  - {t: Functions, h: toggle}
   - {t: MM6, h: toggle}
   - BT CLR
   - OUT TOG
@@ -197,8 +197,8 @@ layers:
   - ''
   - {t: CAPSLOCK, h: KP NUMLOCK}
   - INS
-  - PAUSE BREAK
-  - ''
+  - UP ARROW
+  - DEL
   - ''
   - ''
   - F1
@@ -212,9 +212,9 @@ layers:
   - '&bl BL_DEC'
   - '&bl BL_INC'
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
+  - '&eminsert'
+  - DOWN
+  - RET
   - ''
   - ''
   - F10
