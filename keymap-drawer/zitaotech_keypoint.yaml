@@ -196,11 +196,11 @@ layers:
   - '&mkp MB1'
   - ''
   - {t: CAPSLOCK, h: KP NUMLOCK}
+  - ''
+  - PAUSE BREAK
+  - DEL
   - INS
   - UP ARROW
-  - DEL
-  - ''
-  - ''
   - F1
   - F2
   - F3
@@ -208,15 +208,15 @@ layers:
   - {t: '[', h: ']'}
   - {t: \, h: '|'}
   - ''
-  - PAUSE BREAK
+  - ''
   - '&bl BL_DEC'
   - '&bl BL_INC'
   - {t: ▽, type: trans}
-  - '&eminsert'
-  - DOWN
+  - ''
+  - ''
+  - ''
   - RET
-  - ''
-  - ''
+  - DOWN
   - F10
   - F11
   - {t: ▽, type: trans}
@@ -230,7 +230,7 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - ''
-  - SPACE
+  - '&eminsert'
   MM6:
   - '7'
   - '8'
