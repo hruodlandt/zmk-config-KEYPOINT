@@ -161,15 +161,15 @@ layers:
   - .
   - {t: ▽, type: trans}
   - {t: QWERTY, h: toggle, type: held}
-  - MM6
+  - last
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - MM6
+  - last
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - MM6
+  - last
   - {t: ▽, type: trans}
-  - MM6
+  - last
   - RET
   MOUSE:
   - ''
@@ -275,13 +275,13 @@ layers:
   - '`'
   - {t: ▽, type: trans}
   - {t: QWERTY, h: toggle}
-  - MM6
+  - last
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: MM6, type: held}
+  - {t: last, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: QWERTY, h: toggle}
+  - last
   - {t: ▽, type: trans}
   - SPACE
   - ENTER
@@ -331,8 +331,8 @@ layers:
   - '0'
   - .
   - RIGHT GUI
-  - {t: QWERTY, h: toggle, type: held}
-  - {t: last, type: held}
+  - {t: QWERTY, h: toggle}
+  - last
   - RIGHT CONTROL
   - RET
   - {t: M, h: Y}

@@ -833,8 +833,8 @@ path.combo {
 </g>
 <g transform="translate(252, 203)" class="key keypos-46">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#MM6">
-<text x="0" y="0" class="key tap layer-activator">MM6</text>
+<a href="#last">
+<text x="0" y="0" class="key tap layer-activator">last</text>
 </a></g>
 <g transform="translate(309, 226) rotate(11.93)" class="key trans keypos-47">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -846,8 +846,8 @@ path.combo {
 </g>
 <g transform="translate(500, 245) rotate(-23.87)" class="key keypos-49">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#MM6">
-<text x="0" y="0" class="key tap layer-activator">MM6</text>
+<a href="#last">
+<text x="0" y="0" class="key tap layer-activator">last</text>
 </a></g>
 <g transform="translate(553, 212) rotate(-11.93)" class="key trans keypos-50">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -859,8 +859,8 @@ path.combo {
 </g>
 <g transform="translate(672, 196)" class="key keypos-52">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#MM6">
-<text x="0" y="0" class="key tap layer-activator">MM6</text>
+<a href="#last">
+<text x="0" y="0" class="key tap layer-activator">last</text>
 </a></g>
 <g transform="translate(728, 203)" class="key trans keypos-53">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -868,8 +868,8 @@ path.combo {
 </g>
 <g transform="translate(784, 218)" class="key keypos-54">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#MM6">
-<text x="0" y="0" class="key tap layer-activator">MM6</text>
+<a href="#last">
+<text x="0" y="0" class="key tap layer-activator">last</text>
 </a></g>
 <g transform="translate(840, 218)" class="key keypos-55">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1302,8 +1302,8 @@ path.combo {
 </g>
 <g transform="translate(252, 203)" class="key keypos-46">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#MM6">
-<text x="0" y="0" class="key tap layer-activator">MM6</text>
+<a href="#last">
+<text x="0" y="0" class="key tap layer-activator">last</text>
 </a></g>
 <g transform="translate(309, 226) rotate(11.93)" class="key trans keypos-47">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1315,8 +1315,8 @@ path.combo {
 </g>
 <g transform="translate(500, 245) rotate(-23.87)" class="key held keypos-49">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
-<a href="#MM6">
-<text x="0" y="0" class="key held tap layer-activator">MM6</text>
+<a href="#last">
+<text x="0" y="0" class="key held tap layer-activator">last</text>
 </a></g>
 <g transform="translate(553, 212) rotate(-11.93)" class="key trans keypos-50">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1328,10 +1328,9 @@ path.combo {
 </g>
 <g transform="translate(672, 196)" class="key keypos-52">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#QWERTY">
-<text x="0" y="0" class="key tap layer-activator">QWERTY</text>
-</a><text x="0" y="24" class="key hold">toggle</text>
-</g>
+<a href="#last">
+<text x="0" y="0" class="key tap layer-activator">last</text>
+</a></g>
 <g transform="translate(728, 203)" class="key trans keypos-53">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
@@ -1542,16 +1541,16 @@ path.combo {
 <tspan x="0" dy="-0.6em">RIGHT</tspan><tspan x="0" dy="1.2em">GUI</tspan>
 </text>
 </g>
-<g transform="translate(196, 196)" class="key held keypos-45">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
+<g transform="translate(196, 196)" class="key keypos-45">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <a href="#QWERTY">
-<text x="0" y="0" class="key held tap layer-activator">QWERTY</text>
-</a><text x="0" y="24" class="key held hold">toggle</text>
+<text x="0" y="0" class="key tap layer-activator">QWERTY</text>
+</a><text x="0" y="24" class="key hold">toggle</text>
 </g>
-<g transform="translate(252, 203)" class="key held keypos-46">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
+<g transform="translate(252, 203)" class="key keypos-46">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <a href="#last">
-<text x="0" y="0" class="key held tap layer-activator">last</text>
+<text x="0" y="0" class="key tap layer-activator">last</text>
 </a></g>
 <g transform="translate(309, 226) rotate(11.93)" class="key keypos-47">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
