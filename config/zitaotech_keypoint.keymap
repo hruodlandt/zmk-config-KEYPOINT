@@ -148,10 +148,10 @@
         Alternative {
             display-name = "RVops";
             bindings = <
-&kp N7  &kp N8      &kp N9  &kp MINUS  &kp EQUAL      &kp DELETE       &trans    &trans  &trans  &trans  &trans  &trans
-&kp N4  &kp N5      &kp N6  &kp PLUS   &kp PAGE_UP    &kp RIGHT_SHIFT  &mkp MB1  &none   &trans  &trans  &trans  &trans  &trans  &trans
-&kp N1  &kp N2      &kp N3  &kp HOME   &kp PAGE_DOWN  &kp END          &trans    &trans  &to 1   &to 4   &trans  &trans  &trans  &trans   &trans  &trans
-&kp N0  &kp PERIOD  &trans  &to 0      &mo 5          &trans           &trans    &mo 5   &trans  &trans  &mo 5   &trans  &mo 5   &kp RET
+&kp N7  &kp N8      &kp N9  &kp MINUS  &kp EQUAL      &kp DELETE       &trans    &cutline  &addline  &delline   &kp LC(R)  &kp F2
+&kp N4  &kp N5      &kp N6  &kp PLUS   &kp PAGE_UP    &kp RIGHT_SHIFT  &mkp MB1  &none     &trans    &kp LC(A)  &kp LC(S)  &kp LC(D)  &pastevalue  &kp F5
+&kp N1  &kp N2      &kp N3  &kp HOME   &kp PAGE_DOWN  &kp END          &trans    &trans    &to 1     &to 4      &trans     &kp LC(Z)  &kp LC(X)    &kp LC(C)  &kp LC(V)  &kp LC(LA(V))
+&kp N0  &kp PERIOD  &trans  &to 0      &mo 5          &trans           &trans    &mo 5     &trans    &trans     &mo 5      &trans     &mo 5        &kp RET
             >;
 
             sensor-bindings =
@@ -176,7 +176,7 @@
         Fkeys {
             display-name = "Function";
             bindings = <
-&kp F7   &kp F8   &kp F9  &kp F12                                 &kp PRINTSCREEN        &kp DEL                    &kp ESC   &kp F2    &kp F12            &kp LS(F11)   &kp LS(F8)     &kp LG(LS(T))
+&kp F7   &kp F8   &kp F9  &kp F12                                 &kp GRAVE              &kp DEL                    &kp ESC   &kp F2    &kp F12            &kp LS(F11)   &kp LS(F8)     &kp LG(LS(T))
 &kp F4   &kp F5   &kp F6  &kp SEMI                                &kp APOS               &kp RIGHT_SHIFT            &mkp MB1  &mkp MB1  &kp LA(LS(SPACE))  &kp LC(PLUS)  &kp LC(MINUS)  &kp DEL        &kp INS        &kp UP_ARROW
 &kp F1   &kp F2   &kp F3  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &mt RBKT LEFT_BRACKET  &mt NON_US_BSLH BACKSLASH  &kp ESC   &mkp MB2  &mkp MB1           &mkp MB2      &trans         &kp LC(SPACE)  &kp LS(SPACE)  &kp LC(C)     &eminsert  &kp DOWN
 &kp F10  &kp F11  &trans  &to 0                                   &mo 5                  &trans                     &trans    &mo 5     &trans             &trans        &to 0          &trans         &kp SPACE      &kp ENTER
@@ -187,33 +187,33 @@
                 <&inc_dec_kp LEFT RIGHT>;
         };
 
+        MM6 {
+            bindings = <
+&kp N7        &kp N8        &kp N9         &kp MINUS  &kp EQUAL     &kp BACKSPACE      &kp ESC             &kp N1    &kp N2     &kp N3   &kp N4        &kp N5
+&kp NUMBER_4  &kp N5        &kp NUMBER_6   &kp PLUS   &kp UP_ARROW  &kp RIGHT_SHIFT    &mkp MB1            &none     &kp LCTRL  &kp A    &kp UP_ARROW  &kp S     &kp F7     &kp F8
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp LEFT   &kp DOWN      &kp RIGHT          &kp LA(LS(ESCAPE))  &mkp MB2  &kp Q      &kp R    &kp LSHFT     &kp LEFT  &kp DOWN   &kp RIGHT  &kp F9  &kp F10
+&kp N0        &kp PERIOD    &kp RIGHT_GUI  &to 0      &mo 6         &kp RIGHT_CONTROL  &kp RET             &mt Y M   &kp X      &mt Z I  &kp TAB       &kp C     &kp SPACE  &kp ENTER
+            >;
+
+            sensor-bindings =
+                <&inc_dec_kp C_VOLUME_UP C_VOL_DN>,
+                <&inc_dec_kp PAGE_UP PAGE_DOWN>;
+
+            label = "MM6";
+        };
+
         RES_layer {
             display-name = "last";
             bindings = <
-&kp F7   &kp F8   &kp F9  &kp F12                                 &kp PRINTSCREEN                 &kp DELETE                 &kp ESCAPE  &to 0  &to 1                    &to 6       &bt BT_CLR       &out OUT_TOG
-&kp F4   &kp F5   &kp F6  &kp SEMI                                &kp APOSTROPHE                  &kp RIGHT_SHIFT            &mkp MB1    &none  &mt KP_NUMLOCK CAPSLOCK  &none       &kp PAUSE_BREAK  &kp DEL       &kp INS  &kp UP_ARROW
-&kp F1   &kp F2   &kp F3  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &mt RIGHT_BRACKET LEFT_BRACKET  &mt NON_US_BSLH BACKSLASH  &none       &none  &bl BL_DEC               &bl BL_INC  &trans           &none         &none    &none         &eminsert  &kp DOWN
-&kp F10  &kp F11  &trans  &to 0                                   &none                           &trans                     &trans      &none  &trans                   &trans      &none            &trans        &none    &kp RET
+&kp F7   &kp F8   &kp F9    &kp F12   &kp PRINTSCREEN  &kp DELETE       &kp ESCAPE  &to 0  &to 1                    &to 5       &none            &out OUT_TOG
+&kp F4   &kp F5   &kp F6    &kp INS   &kp PAGE_UP      &kp RIGHT_SHIFT  &mkp MB1    &none  &mt KP_NUMLOCK CAPSLOCK  &none       &kp PAUSE_BREAK  &none         &none  &kp UP_ARROW
+&kp F1   &kp F2   &kp F3    &kp HOME  &kp PAGE_DOWN    &kp END          &bt BT_CLR  &none  &bl BL_DEC               &bl BL_INC  &kp LSHFT        &none         &none  &none         &none  &kp DOWN
+&kp F10  &kp F11  &kp RGUI  &to 0     &none            &kp RCTRL        &kp ENTER   &none  &kp LCTRL                &kp LALT    &none            &kp LGUI      &none  &kp RET
             >;
 
             sensor-bindings =
                 <&inc_dec_kp C_VOLUME_UP C_VOL_DN>,
                 <&BLE_encoder>;
-        };
-
-        MM6 {
-            bindings = <
-&kp N7        &kp N8        &kp N9         &kp MINUS  &kp EQUAL     &kp BACKSPACE      &kp ESC             &kp N1     &kp N2            &kp N3  &kp N4         &kp N5
-&kp NUMBER_4  &kp N5        &kp NUMBER_6   &kp PLUS   &kp UP_ARROW  &kp RIGHT_SHIFT    &mkp MB1            &none      &kp PAGE_UP       &kp A   &kp UP_ARROW   &kp S     &kp F5    &kp F6
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp LEFT   &kp DOWN      &kp RIGHT          &kp LA(LS(ESCAPE))  &mkp MB2   &kp Q             &kp R   &kp PAGE_DOWN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp F7  &kp F8
-&kp N0        &kp PERIOD    &kp RIGHT_GUI  &to 0      &none         &kp RIGHT_CONTROL  &kp RET             &kp LSHFT  &kp LEFT_CONTROL  &kp X   &kp M          &kp C     &kp RET   &kp SPACE
-            >;
-
-            sensor-bindings =
-                <&inc_dec_kp C_VOLUME_UP C_VOL_DN>,
-                <&inc_dec_kp Y Z>;
-
-            label = "MM6";
         };
     };
 };
