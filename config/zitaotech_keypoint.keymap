@@ -151,7 +151,7 @@
 &kp N7  &kp N8      &kp N9  &kp MINUS  &kp EQUAL      &kp DELETE       &trans    &cutline  &addline  &delline   &kp LC(R)  &kp F2
 &kp N4  &kp N5      &kp N6  &kp PLUS   &kp PAGE_UP    &kp RIGHT_SHIFT  &mkp MB1  &none     &trans    &kp LC(A)  &kp LC(S)  &kp LC(D)  &pastevalue  &kp F5
 &kp N1  &kp N2      &kp N3  &kp HOME   &kp PAGE_DOWN  &kp END          &trans    &trans    &to 1     &to 4      &trans     &kp LC(Z)  &kp LC(X)    &kp LC(C)  &kp LC(V)  &kp LC(LA(V))
-&kp N0  &kp PERIOD  &trans  &to 0      &mo 5          &trans           &trans    &mo 5     &trans    &trans     &mo 5      &trans     &mo 5        &kp RET
+&kp N0  &kp PERIOD  &trans  &to 0      &mo 6          &trans           &trans    &mo 6     &trans    &trans     &mo 6      &trans     &mo 6        &kp RET
             >;
 
             sensor-bindings =
@@ -179,7 +179,7 @@
 &kp F7   &kp F8     &kp F9  &kp F11                                 &kp F12                &kp DEL                    &kp ESC   &kp F2    &kp F12            &kp LS(F11)   &kp LS(F8)     &kp LG(LS(T))
 &kp F4   &kp F5     &kp F6  &kp SEMI                                &kp APOS               &kp RIGHT_SHIFT            &mkp MB1  &mkp MB1  &kp LA(LS(SPACE))  &kp LC(PLUS)  &kp LC(MINUS)  &kp DEL        &kp INS        &kp UP_ARROW
 &kp F1   &kp F2     &kp F3  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &mt RBKT LEFT_BRACKET  &mt NON_US_BSLH BACKSLASH  &kp ESC   &mkp MB2  &mkp MB1           &mkp MB2      &trans         &kp LC(SPACE)  &kp LS(SPACE)  &kp LC(C)     &eminsert  &kp DOWN
-&kp F10  &kp GRAVE  &trans  &to 0                                   &mo 5                  &trans                     &trans    &mo 5     &trans             &trans        &to 0          &trans         &kp SPACE      &kp ENTER
+&kp F10  &kp GRAVE  &trans  &to 0                                   &mo 6                  &trans                     &trans    &mo 6     &trans             &trans        &mo 6          &trans         &kp SPACE      &kp ENTER
             >;
 
             sensor-bindings =
