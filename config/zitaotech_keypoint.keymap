@@ -176,10 +176,10 @@
         Fkeys {
             display-name = "Function";
             bindings = <
-&kp F7   &kp F8   &kp F9  &kp F12                                 &kp GRAVE              &kp DEL                    &kp ESC   &kp F2    &kp F12            &kp LS(F11)   &kp LS(F8)     &kp LG(LS(T))
-&kp F4   &kp F5   &kp F6  &kp SEMI                                &kp APOS               &kp RIGHT_SHIFT            &mkp MB1  &mkp MB1  &kp LA(LS(SPACE))  &kp LC(PLUS)  &kp LC(MINUS)  &kp DEL        &kp INS        &kp UP_ARROW
-&kp F1   &kp F2   &kp F3  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &mt RBKT LEFT_BRACKET  &mt NON_US_BSLH BACKSLASH  &kp ESC   &mkp MB2  &mkp MB1           &mkp MB2      &trans         &kp LC(SPACE)  &kp LS(SPACE)  &kp LC(C)     &eminsert  &kp DOWN
-&kp F10  &kp F11  &trans  &to 0                                   &mo 5                  &trans                     &trans    &mo 5     &trans             &trans        &to 0          &trans         &kp SPACE      &kp ENTER
+&kp F7   &kp F8     &kp F9  &kp F11                                 &kp F12                &kp DEL                    &kp ESC   &kp F2    &kp F12            &kp LS(F11)   &kp LS(F8)     &kp LG(LS(T))
+&kp F4   &kp F5     &kp F6  &kp SEMI                                &kp APOS               &kp RIGHT_SHIFT            &mkp MB1  &mkp MB1  &kp LA(LS(SPACE))  &kp LC(PLUS)  &kp LC(MINUS)  &kp DEL        &kp INS        &kp UP_ARROW
+&kp F1   &kp F2     &kp F3  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &mt RBKT LEFT_BRACKET  &mt NON_US_BSLH BACKSLASH  &kp ESC   &mkp MB2  &mkp MB1           &mkp MB2      &trans         &kp LC(SPACE)  &kp LS(SPACE)  &kp LC(C)     &eminsert  &kp DOWN
+&kp F10  &kp GRAVE  &trans  &to 0                                   &mo 5                  &trans                     &trans    &mo 5     &trans             &trans        &to 0          &trans         &kp SPACE      &kp ENTER
             >;
 
             sensor-bindings =
