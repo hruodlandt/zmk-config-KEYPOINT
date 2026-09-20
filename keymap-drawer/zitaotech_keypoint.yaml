@@ -122,11 +122,11 @@ layers:
   - '='
   - DELETE
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&cutline'
+  - '&addline'
+  - '&delline'
+  - Ctl+R
+  - F2
   - '4'
   - '5'
   - '6'
@@ -136,11 +136,11 @@ layers:
   - '&mkp MB1'
   - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+A
+  - Ctl+S
+  - Ctl+D
+  - '&pastevalue'
+  - F5
   - '1'
   - '2'
   - '3'
@@ -152,24 +152,24 @@ layers:
   - {t: Num&Controls, h: toggle}
   - {t: Function, h: toggle}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - Ctl+Alt+V
   - '0'
   - .
   - {t: ▽, type: trans}
   - {t: QWERTY, h: toggle, type: held}
-  - last
+  - MM6
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - last
+  - MM6
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - last
+  - MM6
   - {t: ▽, type: trans}
-  - last
+  - MM6
   - RET
   MOUSE:
   - ''
@@ -233,7 +233,7 @@ layers:
   - F8
   - F9
   - F12
-  - PRINTSCREEN
+  - '`'
   - DEL
   - ESC
   - F2
@@ -275,73 +275,16 @@ layers:
   - F11
   - {t: ▽, type: trans}
   - {t: QWERTY, h: toggle}
-  - last
+  - MM6
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: last, type: held}
+  - {t: MM6, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: QWERTY, h: toggle}
   - {t: ▽, type: trans}
   - SPACE
   - ENTER
-  last:
-  - F7
-  - F8
-  - F9
-  - F12
-  - PRINTSCREEN
-  - DELETE
-  - ESCAPE
-  - {t: QWERTY, h: toggle}
-  - {t: Num&Controls, h: toggle}
-  - {t: MM6, h: toggle}
-  - BT CLR
-  - OUT TOG
-  - F4
-  - F5
-  - F6
-  - ;
-  - ''''
-  - RIGHT SHIFT
-  - '&mkp MB1'
-  - ''
-  - {t: CAPSLOCK, h: KP NUMLOCK}
-  - ''
-  - PAUSE BREAK
-  - DEL
-  - INS
-  - UP ARROW
-  - F1
-  - F2
-  - F3
-  - {t: (, h: )}
-  - {t: '[', h: ']'}
-  - {t: \, h: '|'}
-  - ''
-  - ''
-  - '&bl BL_DEC'
-  - '&bl BL_INC'
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - '&eminsert'
-  - DOWN
-  - F10
-  - F11
-  - {t: ▽, type: trans}
-  - {t: QWERTY, h: toggle, type: held}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
-  - {t: ▽, type: trans}
-  - ''
-  - RET
   MM6:
   - '7'
   - '8'
@@ -363,12 +306,12 @@ layers:
   - RIGHT SHIFT
   - '&mkp MB1'
   - ''
-  - PAGE UP
+  - LCTRL
   - A
   - UP ARROW
   - S
-  - F5
-  - F6
+  - F7
+  - F8
   - '1'
   - '2'
   - '3'
@@ -379,23 +322,80 @@ layers:
   - '&mkp MB2'
   - Q
   - R
-  - PAGE DOWN
+  - LSHFT
   - LEFT
   - DOWN
   - RIGHT
-  - F7
-  - F8
+  - F9
+  - F10
   - '0'
   - .
   - RIGHT GUI
-  - {t: QWERTY, h: toggle}
-  - ''
+  - {t: QWERTY, h: toggle, type: held}
+  - {t: last, type: held}
   - RIGHT CONTROL
   - RET
-  - LSHFT
-  - LEFT CONTROL
+  - {t: M, h: Y}
   - X
-  - M
+  - {t: I, h: Z}
+  - TAB
   - C
-  - RET
   - SPACE
+  - ENTER
+  last:
+  - F7
+  - F8
+  - F9
+  - F12
+  - PRINTSCREEN
+  - DELETE
+  - ESCAPE
+  - {t: QWERTY, h: toggle}
+  - {t: Num&Controls, h: toggle}
+  - {t: MM6, h: toggle}
+  - ''
+  - OUT TOG
+  - F4
+  - F5
+  - F6
+  - INS
+  - PAGE UP
+  - RIGHT SHIFT
+  - '&mkp MB1'
+  - ''
+  - {t: CAPSLOCK, h: KP NUMLOCK}
+  - ''
+  - PAUSE BREAK
+  - ''
+  - ''
+  - UP ARROW
+  - F1
+  - F2
+  - F3
+  - HOME
+  - PAGE DOWN
+  - END
+  - BT CLR
+  - ''
+  - '&bl BL_DEC'
+  - '&bl BL_INC'
+  - LSHFT
+  - ''
+  - ''
+  - ''
+  - ''
+  - DOWN
+  - F10
+  - F11
+  - RGUI
+  - {t: QWERTY, h: toggle, type: held}
+  - {type: held}
+  - RCTRL
+  - ENTER
+  - ''
+  - LCTRL
+  - LALT
+  - ''
+  - LGUI
+  - ''
+  - RET
