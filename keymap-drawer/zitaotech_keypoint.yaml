@@ -50,10 +50,10 @@ layers:
   - RVops
   - RIGHT CONTROL
   - RET
-  - Function
+  - Alternative
   - LEFT CONTROL
   - LEFT ALT
-  - Function
+  - Alternative
   - LEFT GUI
   - RVops
   - SPACE
@@ -107,10 +107,10 @@ layers:
   - RVops
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Function
+  - Alternative
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Function
+  - Alternative
   - {t: ▽, type: trans}
   - RVops
   - {t: ▽, type: trans}
@@ -150,7 +150,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: Num&Controls, h: toggle}
-  - {t: Function, h: toggle}
+  - {t: Alternative, h: toggle}
   - {t: ▽, type: trans}
   - Ctl+Z
   - Ctl+X
@@ -228,12 +228,12 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - SPACE
-  Function:
-  - F7
-  - F8
-  - F9
-  - F11
-  - F12
+  Alternative:
+  - '7'
+  - '8'
+  - '9'
+  - '-'
+  - '='
   - DEL
   - ESC
   - F2
@@ -241,26 +241,26 @@ layers:
   - Sft+F11
   - Sft+F8
   - Gui+Sft+T
-  - F4
-  - F5
-  - F6
-  - ;
-  - ''''
+  - '4'
+  - '5'
+  - '6'
+  - +
+  - PAGE UP
   - RIGHT SHIFT
   - '&mkp MB1'
   - '&mkp MB1'
   - Alt+Sft+SPACE
   - Ctl++
   - Ctl+-
-  - DEL
+  - Ctl+;
   - INS
   - UP ARROW
-  - F1
-  - F2
-  - F3
-  - {t: (, h: )}
-  - {t: '[', h: ']'}
-  - {t: \, h: '|'}
+  - '1'
+  - '2'
+  - '3'
+  - HOME
+  - PAGE DOWN
+  - END
   - ESC
   - '&mkp MB2'
   - '&mkp MB1'
@@ -271,8 +271,8 @@ layers:
   - Ctl+C
   - '&eminsert'
   - DOWN
-  - F10
-  - '`'
+  - '0'
+  - .
   - {t: ▽, type: trans}
   - {t: QWERTY, h: toggle}
   - last
@@ -283,8 +283,8 @@ layers:
   - {t: ▽, type: trans}
   - last
   - {t: ▽, type: trans}
-  - SPACE
-  - ENTER
+  - last
+  - {t: SPACE, h: RET}
   MM6:
   - '7'
   - '8'
@@ -302,7 +302,7 @@ layers:
   - '5'
   - '6'
   - +
-  - UP ARROW
+  - PAGE UP
   - RIGHT SHIFT
   - '&mkp MB1'
   - ''
@@ -315,9 +315,9 @@ layers:
   - '1'
   - '2'
   - '3'
-  - LEFT
-  - DOWN
-  - RIGHT
+  - HOME
+  - PAGE DOWN
+  - END
   - Alt+Sft+ESCAPE
   - '&mkp MB2'
   - Q
@@ -358,8 +358,8 @@ layers:
   - F4
   - F5
   - F6
-  - INS
-  - PAGE UP
+  - ;
+  - ''''
   - RIGHT SHIFT
   - '&mkp MB1'
   - ''
@@ -372,9 +372,9 @@ layers:
   - F1
   - F2
   - F3
-  - HOME
-  - PAGE DOWN
-  - END
+  - {t: (, h: )}
+  - {t: '[', h: ']'}
+  - {t: \, h: '|'}
   - BT CLR
   - ''
   - '&bl BL_DEC'
