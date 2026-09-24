@@ -46,16 +46,16 @@ layers:
   - ','
   - .
   - RIGHT GUI
-  - RVops
-  - RVops
+  - Fonctions
+  - Num et Alter
   - RIGHT CONTROL
   - RET
-  - Alternative
+  - Num et Alter
   - LEFT CONTROL
   - LEFT ALT
-  - Alternative
+  - Fonctions
   - LEFT GUI
-  - RVops
+  - Fonctions
   - SPACE
   Num&Controls:
   - '7'
@@ -103,23 +103,23 @@ layers:
   - '0'
   - .
   - {t: ▽, type: trans}
-  - {t: QWERTY, h: toggle}
-  - RVops
+  - Fonctions
+  - Num et Alter
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Alternative
+  - Num et Alter
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Alternative
+  - Fonctions
   - {t: ▽, type: trans}
-  - RVops
+  - Fonctions
   - {t: ▽, type: trans}
-  RVops:
-  - '7'
-  - '8'
-  - '9'
-  - '-'
-  - '='
+  Fonctions:
+  - F7
+  - F8
+  - F9
+  - F11
+  - F12
   - DELETE
   - {t: ▽, type: trans}
   - '&cutline'
@@ -127,11 +127,11 @@ layers:
   - '&delline'
   - Ctl+R
   - F2
-  - '4'
-  - '5'
-  - '6'
-  - +
-  - PAGE UP
+  - F4
+  - F5
+  - F6
+  - ;
+  - ''''
   - RIGHT SHIFT
   - '&mkp MB1'
   - ''
@@ -141,26 +141,26 @@ layers:
   - Ctl+D
   - '&pastevalue'
   - F5
-  - '1'
-  - '2'
-  - '3'
-  - HOME
-  - PAGE DOWN
-  - END
+  - F1
+  - F2
+  - F3
+  - {t: (, h: )}
+  - {t: '[', h: ']'}
+  - {t: \, h: '|'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: Num&Controls, h: toggle}
-  - {t: Alternative, h: toggle}
+  - {t: Num et Alter, h: toggle}
   - {t: ▽, type: trans}
   - Ctl+Z
   - Ctl+X
   - Ctl+C
   - Ctl+V
   - Ctl+Alt+V
-  - '0'
-  - .
+  - F10
+  - '`'
   - {t: ▽, type: trans}
-  - {t: QWERTY, h: toggle, type: held}
+  - {t: last, type: held}
   - last
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -228,7 +228,7 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - SPACE
-  Alternative:
+  Num et Alter:
   - '7'
   - '8'
   - '9'
@@ -275,13 +275,13 @@ layers:
   - .
   - {t: ▽, type: trans}
   - {t: QWERTY, h: toggle}
-  - last
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: last, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - last
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: QWERTY, h: toggle}
   - {t: ▽, type: trans}
   - last
   - {t: SPACE, h: RET}
@@ -343,40 +343,40 @@ layers:
   - SPACE
   - ENTER
   last:
-  - F7
-  - F8
-  - F9
-  - F12
+  - '7'
+  - '8'
+  - PAUSE BREAK
+  - SCROLLLOCK
   - PRINTSCREEN
   - DELETE
   - ESCAPE
   - {t: QWERTY, h: toggle}
   - {t: Num&Controls, h: toggle}
+  - {t: Num et Alter, h: toggle}
   - {t: MM6, h: toggle}
   - ''
-  - OUT TOG
-  - F4
-  - F5
-  - F6
-  - ;
-  - ''''
+  - '4'
+  - '5'
+  - '6'
+  - +
+  - UP ARROW
   - RIGHT SHIFT
   - '&mkp MB1'
   - ''
-  - {t: CAPSLOCK, h: KP NUMLOCK}
+  - CAPS
   - ''
-  - PAUSE BREAK
+  - ''
   - ''
   - ''
   - UP ARROW
-  - F1
-  - F2
-  - F3
-  - {t: (, h: )}
-  - {t: '[', h: ']'}
-  - {t: \, h: '|'}
+  - KP NUMLOCK
+  - MUTE
+  - '3'
+  - LEFT
+  - DOWN ARROW
+  - RIGHT
   - BT CLR
-  - ''
+  - OUT TOG
   - '&bl BL_DEC'
   - '&bl BL_INC'
   - LSHFT
@@ -385,17 +385,17 @@ layers:
   - ''
   - ''
   - DOWN
-  - F10
-  - F11
+  - '0'
+  - '`'
   - RGUI
   - {t: QWERTY, h: toggle, type: held}
-  - {type: held}
+  - ''
   - RCTRL
   - ENTER
   - ''
   - LCTRL
   - LALT
-  - ''
+  - {t: QWERTY, h: toggle}
   - LGUI
   - ''
   - RET
