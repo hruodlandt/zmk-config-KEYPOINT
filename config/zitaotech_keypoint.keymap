@@ -123,7 +123,7 @@
 &kp Y      &kp U       &kp I          &kp O     &kp P         &kp BACKSPACE      &kp ESCAPE  &kp Q      &kp W             &kp E         &kp R           &kp T
 &kp H      &kp J       &kp K          &kp L     &kp UP_ARROW  &kp RIGHT_SHIFT    &mkp LCLK   &mkp LCLK  &mt LEFT_GUI TAB  &kp A         &kp S           &kp D         &kp F  &kp G
 &kp N      &kp M       &kp SLASH      &kp LEFT  &kp DOWN      &kp RIGHT          &kp ESCAPE  &mkp MB2   &mkp MB1          &mkp MB2      &kp LEFT_SHIFT  &kp Z         &kp X  &kp C      &kp V  &kp B
-&kp COMMA  &kp PERIOD  &kp RIGHT_GUI  &mo 2     &mo 2         &kp RIGHT_CONTROL  &kp RET     &mo 4      &kp LEFT_CONTROL  &kp LEFT_ALT  &mo 4           &kp LEFT_GUI  &mo 2  &kp SPACE
+&kp COMMA  &kp PERIOD  &kp RIGHT_GUI  &mo 2     &mo 4         &kp RIGHT_CONTROL  &kp RET     &mo 4      &kp LEFT_CONTROL  &kp LEFT_ALT  &mo 2           &kp LEFT_GUI  &mo 2  &kp SPACE
             >;
 
             sensor-bindings =
@@ -137,7 +137,7 @@
 &kp N7        &kp N8        &kp N9        &kp MINUS  &kp EQUAL     &kp BACKSPACE  &kp ESC   &cutline  &addline  &delline   &kp LC(R)  &kp F2
 &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS   &kp UP_ARROW  &kp RSHFT      &mkp MB1  &mkp MB1  &trans    &kp LC(A)  &kp LC(S)  &kp LC(D)  &pastevalue  &kp F5
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT   &kp DOWN      &kp RIGHT      &kp ESC   &trans    &trans    &trans     &trans     &kp LC(Z)  &kp LC(X)    &kp LC(C)  &kp LC(V)  &kp LC(LA(V))
-&kp N0        &kp PERIOD    &trans        &to 0      &mo 2         &trans         &trans    &mo 4     &trans    &trans     &mo 4      &trans     &mo 2        &trans
+&kp N0        &kp PERIOD    &trans        &mo 2      &mo 4         &trans         &trans    &mo 4     &trans    &trans     &mo 2      &trans     &mo 2        &trans
             >;
 
             sensor-bindings =
@@ -145,13 +145,13 @@
                 <&inc_dec_kp UP_ARROW DOWN_ARROW>;
         };
 
-        Alternative {
-            display-name = "RVops";
+        Funtions {
+            display-name = "Fonctions";
             bindings = <
-&kp N7  &kp N8      &kp N9  &kp MINUS  &kp EQUAL      &kp DELETE       &trans    &cutline  &addline  &delline   &kp LC(R)  &kp F2
-&kp N4  &kp N5      &kp N6  &kp PLUS   &kp PAGE_UP    &kp RIGHT_SHIFT  &mkp MB1  &none     &trans    &kp LC(A)  &kp LC(S)  &kp LC(D)  &pastevalue  &kp F5
-&kp N1  &kp N2      &kp N3  &kp HOME   &kp PAGE_DOWN  &kp END          &trans    &trans    &to 1     &to 4      &trans     &kp LC(Z)  &kp LC(X)    &kp LC(C)  &kp LC(V)  &kp LC(LA(V))
-&kp N0  &kp PERIOD  &trans  &to 0      &mo 6          &trans           &trans    &mo 6     &trans    &trans     &mo 6      &trans     &mo 6        &kp RET
+&kp F7   &kp F8     &kp F9  &kp F11                                 &kp F12                &kp DELETE                 &trans    &cutline  &addline  &delline   &kp LC(R)  &kp F2
+&kp F4   &kp F5     &kp F6  &kp SEMI                                &kp APOS               &kp RIGHT_SHIFT            &mkp MB1  &none     &trans    &kp LC(A)  &kp LC(S)  &kp LC(D)  &pastevalue  &kp F5
+&kp F1   &kp F2     &kp F3  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &mt RBKT LEFT_BRACKET  &mt NON_US_BSLH BACKSLASH  &trans    &trans    &to 1     &to 4      &trans     &kp LC(Z)  &kp LC(X)    &kp LC(C)  &kp LC(V)  &kp LC(LA(V))
+&kp F10  &kp GRAVE  &trans  &mo 6                                   &mo 6                  &trans                     &trans    &mo 6     &trans    &trans     &mo 6      &trans     &mo 6        &kp RET
             >;
 
             sensor-bindings =
@@ -173,13 +173,13 @@
                 <&inc_dec_kp UP_ARROW DOWN>;
         };
 
-        Red {
-            display-name = "Alternative";
+        Alternative {
+            display-name = "Num et Alter";
             bindings = <
 &kp N7  &kp N8   &kp N9  &kp MINUS  &kp EQUAL      &kp DEL          &kp ESC   &kp F2    &kp F12            &kp LS(F11)   &kp LS(F8)     &kp LG(LS(T))
 &kp N4  &kp N5   &kp N6  &kp PLUS   &kp PAGE_UP    &kp RIGHT_SHIFT  &mkp MB1  &mkp MB1  &kp LA(LS(SPACE))  &kp LC(PLUS)  &kp LC(MINUS)  &kp LC(SEMI)   &kp INS        &kp UP_ARROW
 &kp N1  &kp N2   &kp N3  &kp HOME   &kp PAGE_DOWN  &kp END          &kp ESC   &mkp MB2  &mkp MB1           &mkp MB2      &trans         &kp LC(SPACE)  &kp LS(SPACE)  &kp LC(C)      &eminsert  &kp DOWN
-&kp N0  &kp DOT  &trans  &to 0      &mo 6          &trans           &trans    &mo 6     &trans             &trans        &mo 6          &trans         &mo 6          &mt RET SPACE
+&kp N0  &kp DOT  &trans  &to 0      &mo 6          &trans           &trans    &mo 6     &trans             &trans        &to 0          &trans         &mo 6          &mt RET SPACE
             >;
 
             sensor-bindings =
@@ -205,10 +205,10 @@
         RES_layer {
             display-name = "last";
             bindings = <
-&kp F7   &kp F8   &kp F9    &kp F12                                 &kp PRINTSCREEN        &kp DELETE                 &kp ESCAPE  &to 0  &to 1                    &to 5       &none            &out OUT_TOG
-&kp F4   &kp F5   &kp F6    &kp SEMI                                &kp APOS               &kp RIGHT_SHIFT            &mkp MB1    &none  &mt KP_NUMLOCK CAPSLOCK  &none       &kp PAUSE_BREAK  &none         &none  &kp UP_ARROW
-&kp F1   &kp F2   &kp F3    &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &mt RBKT LEFT_BRACKET  &mt NON_US_BSLH BACKSLASH  &bt BT_CLR  &none  &bl BL_DEC               &bl BL_INC  &kp LSHFT        &none         &none  &none         &none  &kp DOWN
-&kp F10  &kp F11  &kp RGUI  &to 0                                   &none                  &kp RCTRL                  &kp ENTER   &none  &kp LCTRL                &kp LALT    &none            &kp LGUI      &none  &kp RET
+&kp N7          &kp N8      &kp PAUSE_BREAK  &kp SCROLLLOCK  &kp PRINTSCREEN  &kp DELETE       &kp ESCAPE  &to 0         &to 1       &to 4       &to 5      &none
+&kp N4          &kp N5      &kp N6           &kp PLUS        &kp UP_ARROW     &kp RIGHT_SHIFT  &mkp MB1    &none         &kp CAPS    &none       &none      &none     &none  &kp UP_ARROW
+&kp KP_NUMLOCK  &kp C_MUTE  &kp N3           &kp LEFT        &kp DOWN_ARROW   &kp RIGHT        &bt BT_CLR  &out OUT_TOG  &bl BL_DEC  &bl BL_INC  &kp LSHFT  &none     &none  &none         &none  &kp DOWN
+&kp N0          &kp GRAVE   &kp RGUI         &to 0           &none            &kp RCTRL        &kp ENTER   &none         &kp LCTRL   &kp LALT    &to 0      &kp LGUI  &none  &kp RET
             >;
 
             sensor-bindings =
