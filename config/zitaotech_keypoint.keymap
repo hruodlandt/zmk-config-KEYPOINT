@@ -205,9 +205,9 @@
         RES_layer {
             display-name = "last";
             bindings = <
-&kp N7          &kp N8      &kp PAUSE_BREAK  &kp SCROLLLOCK  &kp PRINTSCREEN  &kp DELETE       &kp ESCAPE  &to 0         &to 1       &to 4       &to 5      &none
-&kp N4          &kp N5      &kp N6           &kp PLUS        &kp UP_ARROW     &kp RIGHT_SHIFT  &mkp MB1    &none         &kp CAPS    &none       &none      &none     &none  &kp UP_ARROW
-&kp KP_NUMLOCK  &kp C_MUTE  &kp N3           &kp LEFT        &kp DOWN_ARROW   &kp RIGHT        &bt BT_CLR  &out OUT_TOG  &bl BL_DEC  &bl BL_INC  &kp LSHFT  &none     &none  &none         &none  &kp DOWN
+&none           &none       &kp PAUSE_BREAK  &kp SCROLLLOCK  &kp PRINTSCREEN  &kp DELETE       &kp ESCAPE  &to 0         &to 1       &to 4       &to 5      &none
+&none           &none       &none            &none           &kp UP_ARROW     &kp RIGHT_SHIFT  &mkp MB1    &none         &kp CAPS    &none       &none      &none     &none  &kp UP_ARROW
+&kp KP_NUMLOCK  &kp C_MUTE  &none            &kp LEFT        &kp DOWN_ARROW   &kp RIGHT        &bt BT_CLR  &out OUT_TOG  &bl BL_DEC  &bl BL_INC  &kp LSHFT  &none     &none  &none         &none  &kp DOWN
 &kp N0          &kp GRAVE   &kp RGUI         &to 0           &none            &kp RCTRL        &kp ENTER   &none         &kp LCTRL   &kp LALT    &to 0      &kp LGUI  &none  &kp RET
             >;
 
