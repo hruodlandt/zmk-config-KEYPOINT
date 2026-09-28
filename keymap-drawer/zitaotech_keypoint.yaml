@@ -343,8 +343,8 @@ layers:
   - SPACE
   - ENTER
   last:
-  - '7'
-  - '8'
+  - ''
+  - ''
   - PAUSE BREAK
   - SCROLLLOCK
   - PRINTSCREEN
@@ -355,10 +355,10 @@ layers:
   - {t: Num et Alter, h: toggle}
   - {t: MM6, h: toggle}
   - ''
-  - '4'
-  - '5'
-  - '6'
-  - +
+  - ''
+  - ''
+  - ''
+  - ''
   - UP ARROW
   - RIGHT SHIFT
   - '&mkp MB1'
@@ -371,7 +371,7 @@ layers:
   - UP ARROW
   - KP NUMLOCK
   - MUTE
-  - '3'
+  - ''
   - LEFT
   - DOWN ARROW
   - RIGHT
