@@ -150,7 +150,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: Num&Controls, h: toggle}
-  - {t: Num et Alter, h: toggle}
+  - {t: MM6, h: toggle}
   - {t: ▽, type: trans}
   - Ctl+Z
   - Ctl+X
@@ -235,9 +235,9 @@ layers:
   - '-'
   - '='
   - DEL
-  - ESC
   - F2
   - F12
+  - Sft+F10
   - Sft+F11
   - Sft+F8
   - Gui+Sft+T
@@ -253,8 +253,8 @@ layers:
   - Ctl++
   - Ctl+-
   - Ctl+;
-  - INS
-  - UP ARROW
+  - '&pastevalue'
+  - F5
   - '1'
   - '2'
   - '3'
@@ -269,8 +269,8 @@ layers:
   - Ctl+SPACE
   - Sft+SPACE
   - Ctl+C
-  - '&eminsert'
-  - DOWN
+  - Ctl+V
+  - Alt+Ctl+V
   - '0'
   - .
   - {t: ▽, type: trans}
@@ -301,8 +301,8 @@ layers:
   - '4'
   - '5'
   - '6'
-  - +
-  - PAGE UP
+  - INS
+  - UP ARROW
   - RIGHT SHIFT
   - '&mkp MB1'
   - ''
@@ -315,10 +315,10 @@ layers:
   - '1'
   - '2'
   - '3'
-  - HOME
-  - PAGE DOWN
+  - '&eminsert'
+  - DOWN ARROW
   - END
-  - Alt+Sft+ESCAPE
+  - ESCAPE
   - '&mkp MB2'
   - Q
   - R
