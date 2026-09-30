@@ -55,7 +55,7 @@ layers:
   - LEFT ALT
   - Fonctions
   - LEFT GUI
-  - Fonctions
+  - Num&Controls
   - SPACE
   Num&Controls:
   - '7'
@@ -112,7 +112,7 @@ layers:
   - {t: ▽, type: trans}
   - Fonctions
   - {t: ▽, type: trans}
-  - Fonctions
+  - {t: Fonctions, type: held}
   - {t: ▽, type: trans}
   Fonctions:
   - F7
