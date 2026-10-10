@@ -134,10 +134,10 @@
         Secondary {
             display-name = "Num&Controls";
             bindings = <
-&kp N7        &kp N8        &kp N9        &kp MINUS  &kp EQUAL     &kp BACKSPACE  &kp ESC   &cutline  &addline  &delline   &kp LC(R)  &kp F2
-&kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS   &kp UP_ARROW  &kp RSHFT      &mkp MB1  &mkp MB1  &trans    &kp LC(A)  &kp LC(S)  &kp LC(D)  &pastevalue  &kp F5
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT   &kp DOWN      &kp RIGHT      &kp ESC   &trans    &trans    &trans     &trans     &kp LC(Z)  &kp LC(X)    &kp LC(C)  &kp LC(V)  &kp LC(LA(V))
-&kp N0        &kp PERIOD    &trans        &mo 2      &mo 4         &trans         &trans    &mo 4     &trans    &trans     &mo 2      &trans     &mo 2        &trans
+&kp N7        &kp N8        &kp N9        &kp MINUS  &kp EQUAL      &kp BACKSPACE  &kp ESC   &cutline  &addline  &delline   &kp LC(R)  &kp F2
+&kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS   &kp PAGE_UP    &kp RSHFT      &mkp MB1  &mkp MB1  &trans    &kp LC(A)  &kp LC(S)  &kp LC(D)  &pastevalue  &kp F5
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp HOME   &kp PAGE_DOWN  &kp END        &kp ESC   &trans    &trans    &trans     &trans     &kp LC(Z)  &kp LC(X)    &kp LC(C)  &kp LC(V)  &kp LC(LA(V))
+&kp N0        &kp PERIOD    &trans        &mo 2      &mo 4          &trans         &trans    &mo 4     &trans    &trans     &mo 2      &trans     &mo 2        &kp ENTER
             >;
 
             sensor-bindings =
