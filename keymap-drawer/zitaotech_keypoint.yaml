@@ -74,7 +74,7 @@ layers:
   - '5'
   - '6'
   - +
-  - UP ARROW
+  - PAGE UP
   - RSHFT
   - '&mkp MB1'
   - '&mkp MB1'
@@ -87,9 +87,9 @@ layers:
   - '1'
   - '2'
   - '3'
-  - LEFT
-  - DOWN
-  - RIGHT
+  - HOME
+  - PAGE DOWN
+  - END
   - ESC
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -113,7 +113,7 @@ layers:
   - Fonctions
   - {t: ▽, type: trans}
   - {t: Fonctions, type: held}
-  - {t: ▽, type: trans}
+  - ENTER
   Fonctions:
   - F7
   - F8
