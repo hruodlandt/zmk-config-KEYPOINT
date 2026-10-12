@@ -46,7 +46,7 @@ layers:
   - ','
   - .
   - RIGHT GUI
-  - Fonctions
+  - RALT
   - Num et Alter
   - RIGHT CONTROL
   - RET
@@ -103,7 +103,7 @@ layers:
   - '0'
   - .
   - {t: ▽, type: trans}
-  - Fonctions
+  - RALT
   - Num et Alter
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -160,14 +160,14 @@ layers:
   - F10
   - '`'
   - {t: ▽, type: trans}
+  - RALT
+  - last
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - last
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: last, type: held}
-  - last
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - last
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - last
   - {t: ▽, type: trans}
   - last
   - RET
@@ -274,7 +274,7 @@ layers:
   - '0'
   - .
   - {t: ▽, type: trans}
-  - {t: QWERTY, h: toggle}
+  - RALT
   - {t: last, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -388,14 +388,14 @@ layers:
   - '0'
   - '`'
   - RGUI
-  - {t: QWERTY, h: toggle, type: held}
-  - ''
+  - {t: QWERTY, h: toggle}
+  - {type: held}
   - RCTRL
   - ENTER
   - ''
   - LCTRL
   - LALT
-  - {t: QWERTY, h: toggle}
+  - {t: QWERTY, h: toggle, type: held}
   - LGUI
   - ''
   - RET
